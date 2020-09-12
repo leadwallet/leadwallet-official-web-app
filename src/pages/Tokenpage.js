@@ -1,15 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Button from "../components/common/Button";
 import Card from "../components/common/Card";
 
-const HomePage = () => {
-  const [total, setTotal] = useState(49.8);
-  const [value, setValue] = useState(2.75);
-  const [available, setAvailable] = useState("");
-  const [reward, setReward] = useState("");
-
+const TokenPage = () => {
   return (
     <div className="w-full overflow-hidden">
       <div className="relative z-20 w-full top-0">
@@ -21,94 +16,114 @@ const HomePage = () => {
         <img
           src="/images/nosiy.png"
           alt=""
-          className="absolute z-10 second-noisy"
+          className="absolute z-10 third-noisy"
         />
       </div>
 
       <div className="relative z-10 w-full top-0">
-        <div className="absolute w-full home-gradient"></div>
+        <div className="absolute w-full token-gradient"></div>
       </div>
 
       <div className="relative w-full z-30">
         <Header />
 
-        <div className="container mx-auto mb-48 px-4">
-          <div className="w-full py-6 text-center">
-            <Button className="w-full md:w-2/5 text-2xl">
-              Connect Your Wallet
-            </Button>
-          </div>
+        <div className="container mx-auto mb-12 px-4">
+          <section className="mt-8 text-center">
+            <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
+              LEAD TOKEN
+            </div>
+            <div className="text-white w-5/6 mx-auto leading-7">
+              The LEAD Token is an ERC-20 token that fuels the products and
+              services that are delivered on Lead Wallet. With this, LEAD token
+              is basically the heart of the Lead Wallet app. LEAD token is
+              designed from the ground up to have natural demand as the services
+              of Lead Wallet themselves get more popular. It’s also important to
+              know that LEAD token will be a cross-chain token in the future and
+              won’t be just part of the Ethereum ecosystem.
+            </div>
+          </section>
 
-          <div className="grid grid-col-1 md:grid-cols-2 gap-6 mt-10">
-            <Card title="Total Staked Lead">
-              <div className="flex flex-col pt-16 pb-4">
-                <div className="text-center">
-                  <span className="text-white text-3xl">{total}</span>
-                  <span className="text-white text-2xl ml-2">%</span>
-                </div>
-                <div className="text-center text-white text-xl">
-                  Of circulating supply
-                </div>
-              </div>
-            </Card>
-            <Card title="Your Staked Lead">
-              <div className="flex flex-col pt-16 pb-4 px-2">
-                <div className="text-center">
-                  <span className="text-white text-3xl">{value}</span>
-                  <span className="text-white text-2xl ml-2">%</span>
-                </div>
-                <div className="text-center text-white text-xl">
-                  Of staked Lead
-                </div>
-              </div>
-            </Card>
-            <Card title="Available Lead Balance">
-              <div className="flex flex-col pt-8 px-2">
-                <div className="text-center pb-8">
-                  <span className="text-white text-3xl">{available}</span>
-                  <span className="text-white text-2xl ml-2">LEAD</span>
-                </div>
-                <div className="rounded-md border-2 border-primary p-2 flex justify-end">
-                  <Button className="flex flex-row items-center">
-                    <img src="/images/locked.svg" width="25" alt="" />
-                    <span className="w-32">STAKE</span>
-                  </Button>
-                </div>
-              </div>
-            </Card>
-            <Card title="Your Lead Reward">
-              <div className="flex flex-col pt-8 px-2">
-                <div className="text-center pb-8">
-                  <span className="text-white text-3xl">{reward}</span>
-                  <span className="text-white text-2xl ml-2">LEAD</span>
-                </div>
-                <div className="rounded-md border-2 border-primary p-2 flex justify-between items-center">
-                  <div className="text-white text-lg font-thin ml-3">
-                    Lead To Stake
+          <section className="mt-20">
+            <Card className="px-4 md:px-12">
+              <div className="grid grid-cols-1 sm:grid-cols-3">
+                <div className="mx-auto w-40 py-8">
+                  <img
+                    src="/images/payment.svg"
+                    width="50"
+                    alt=""
+                    className="mx-auto mb-6"
+                  />
+                  <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
+                    30% PROFIT SHARE
                   </div>
-                  <Button className="flex flex-row items-center">
-                    <img src="/images/unlocked.svg" width="25" alt="" />
-                    <span className="w-32">WITHDRAW</span>
-                  </Button>
+                </div>
+                <div className="mx-auto w-40 py-8">
+                  <img
+                    src="/images/reward.svg"
+                    width="50"
+                    alt=""
+                    className="mx-auto mb-6"
+                  />
+                  <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
+                    40% STAKE REWARD
+                  </div>
+                </div>
+                <div className="mx-auto w-40 py-8">
+                  <img
+                    src="/images/water.svg"
+                    width="50"
+                    alt=""
+                    className="mx-auto mb-6"
+                  />
+                  <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
+                    100% LIQUIDITY
+                  </div>
                 </div>
               </div>
             </Card>
-          </div>
+          </section>
 
-          <div className="grid grid-col-1 md:grid-cols-2 gap-6 mt-6">
-            <div className="flex flex-row items-center mx-auto">
-              <img src="/images/favorite.svg" width="25" alt="" />
-              <span className="text-white text-md ml-2">
-                Deposit & Stake Your Lead With 2.5% Fee
-              </span>
+          <section className="mt-20 text-center">
+            <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
+              WHY LEAD TOKEN?
             </div>
-            <div className="flex flex-row items-center mx-auto">
-              <img src="/images/flask.svg" width="25" alt="" />
-              <span className="text-white text-md ml-2">
-                Withdraw Any Time For A 2.5% Unstaking Fee
-              </span>
+            <div className="text-white w-5/6 mx-auto leading-7">
+              Many cryptocurrency projects out there do not really care where
+              the natural demand for their tokens would come from. Lead Wallet
+              and LEAD token are designed to grow together. More users for the
+              services would mean more natural demand for the LEAD token as
+              well.
             </div>
-          </div>
+          </section>
+
+          <section className="mt-20 text-center">
+            <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
+              TOKEN DISTRIBUTION
+            </div>
+            <div className="text-white w-5/6 mx-auto leading-7">
+              The team only gets 15% of the total token distribution as we do
+              not want this project to enrich the select few. We believe that
+              the community deserves to get the most out of our project. Please
+              take a look at the chart below to see how we are going to
+              distribute the tokens:
+            </div>
+          </section>
+
+          <section className="mt-20 text-center">
+            <img
+              src="/images/distribution.png"
+              alt=""
+              className="w-full md:w-96 mx-auto"
+            />
+            <div className="text-white w-5/6 mx-auto leading-7 mt-4">
+              <div>Private and public sale: 40% (400,000,000 LEAD)</div>
+              <div>Staking reward: 28.5% (285,000,000 LEAD)</div>
+              <div>Team: 15% (150,000,000 LEAD)</div>
+              <div>Product Development: 8% (80,000,000 LEAD)</div>
+              <div>Marketing: 5.5% (55,000,000 LEAD)</div>
+              <div>Advisors and Partners: 3% (30,000,000 LEAD)</div>
+            </div>
+          </section>
         </div>
 
         <Footer />
@@ -117,4 +132,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default TokenPage;

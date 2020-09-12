@@ -909,6 +909,17 @@ body {
   height: 3000px;
 }
 
+.contactus-gradient {
+  background: transparent linear-gradient(180deg, #12072b 0%, #cc1962 50%) 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  height: 2000px;
+}
+
+.input-bg {
+  background-color: rgba(255, 255, 255, 0.22);
+}
+
 .card-bg {
   background-color: rgba(0, 0, 0, 0.37);
 }
