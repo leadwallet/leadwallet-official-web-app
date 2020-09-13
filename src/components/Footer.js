@@ -5,14 +5,14 @@ export default () => {
     <div className="py-8 footer-bg">
       <footer className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          <div className="logo hidden lg:flex flex-row items-center">
+          <a href="/" className="logo hidden lg:flex flex-row items-center">
             <img
               src="/images/full-logo.svg"
               width="180"
               className="cursor-pointer"
               alt="LEAD"
             />
-          </div>
+          </a>
           <div className="text-white leading-7 text-xs cursor-pointer">
             <div className="font-Montserrat-ExtraBold uppercase">Products</div>
             <div>Business Console</div>
@@ -23,9 +23,9 @@ export default () => {
           <div className="text-white leading-7 text-xs cursor-pointer">
             <div className="font-Montserrat-ExtraBold uppercase">About Us</div>
             <div>Project</div>
-            <div>Team</div>
+            <a href="/team">Team</a>
             <div>Ecosystem</div>
-            <div>The Token</div>
+            <a href="/token">The Token</a>
           </div>
           <div className="text-white leading-7 text-xs cursor-pointer">
             <div className="font-Montserrat-ExtraBold uppercase">Solutions</div>
@@ -39,7 +39,13 @@ export default () => {
               Documentation
             </div>
             <div>API Documentation</div>
-            <div>Whitepaper</div>
+            <a
+              href="https://leadwallet.io/en/docs/whitepaper.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Whitepaper
+            </a>
             <div>Legal</div>
             <div>Privacy Policy</div>
             <div>Terms & Conditions</div>

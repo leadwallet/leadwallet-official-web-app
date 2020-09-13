@@ -40,11 +40,11 @@ const HomePage = () => {
         <Header />
 
         <div className="container mx-auto mb-48 px-4">
-          <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl text-center">
-            WORLDS Simplest Crypto Wallet
+          <div className="font-Montserrat-ExtraBold uppercase text-white text-5xl text-center">
+            WORLD'S Simplest Crypto Wallet
           </div>
 
-          <div className="uppercase text-white text-md text-center">
+          <div className="uppercase text-white text-xl text-center">
             Store, Send, Swap, Stake
           </div>
 
