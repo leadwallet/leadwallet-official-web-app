@@ -98,8 +98,6 @@ const Teampage = () => {
               </div>
             </div>
 
-            <hr className="w-full sm:w-5/6 mx-auto border-dashed border-2 mb-24" />
-
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
@@ -111,7 +109,7 @@ const Teampage = () => {
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
                 <div className="font-Montserrat-ExtraBold text-xl">
-                  Ruddy Gunawan
+                  Ruddy Setiadi Gunawan
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Marketing Officer
