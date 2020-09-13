@@ -9,6 +9,7 @@ const ContactUsPage = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [messsage, setMessage] = useState("");
+  const [showThanks, setShowThanks] = useState(false);
   return (
     <div className="w-full overflow-hidden">
       <div className="relative z-20 w-full top-0">
@@ -31,51 +32,81 @@ const ContactUsPage = () => {
       <div className="relative w-full z-30">
         <Header />
 
-        <div className="container mx-auto mb-48 px-4">
-          <section className="mt-8 text-center">
-            <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
-              CONTACT US
-            </div>
-            <div className="text-white w-5/6 mx-auto leading-7">
-              We are not trying to reinvent the wheel. We are not trying to
-              create a new blockchain ecosystem that nobody would use. We
-              understand the biggest problem with cryptocurrency adoption is the
-              lack of user-friendly and beautifully-designed applications.
-              Cryptocurrency wallets are the gateway to adoption as they are the
-              first application that newcomers often interact with before they
-              start interacting with other kinds of apps. We are trying to be
-              the leader of that adoption.
-            </div>
-          </section>
+        {showThanks ? (
+          <div className="container mx-auto mb-48 px-4">
+            <section className="w-full mt-48 text-center">
+              <img
+                src="/images/check-circle.svg"
+                width="100"
+                className="mx-auto"
+                alt=""
+              />
+              <div className="font-Montserrat-ExtraBold text-white text-3xl mb-2">
+                Thank you for contacting us
+              </div>
+              <div className="text-white w-5/6 mx-auto leading-7">
+                For more information please reach out to:{" "}
+                <a
+                  className="text-blue-300"
+                  href="mailto:contact@leadwallet.io"
+                >
+                  contact@leadwallet.io
+                </a>
+              </div>
+            </section>
+          </div>
+        ) : (
+          <div className="container mx-auto mb-48 px-4">
+            <section className="mt-8 text-center">
+              <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
+                CONTACT US
+              </div>
+              <div className="text-white w-5/6 mx-auto leading-7">
+                We are not trying to reinvent the wheel. We are not trying to
+                create a new blockchain ecosystem that nobody would use. We
+                understand the biggest problem with cryptocurrency adoption is
+                the lack of user-friendly and beautifully-designed applications.
+                Cryptocurrency wallets are the gateway to adoption as they are
+                the first application that newcomers often interact with before
+                they start interacting with other kinds of apps. We are trying
+                to be the leader of that adoption.
+              </div>
+            </section>
 
-          <section className="mt-12">
-            <Card className="px-4 md:px-12">
-              <div className="grid gird-cols-1 md:grid-cols-2 gap-8 md:gap-12 pt-8">
-                <InputField
-                  value={email}
-                  placeholder="EMAIL"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                <InputField
-                  value={name}
-                  placeholder="NAME"
-                  onChange={(e) => setName(e.target.value)}
-                />
-              </div>
-              <div className="grid grid-cols-1 mt-8">
-                <InputField
-                  type="textarea"
-                  value={messsage}
-                  placeholder="SEND MESSAGE"
-                  onChange={(e) => setMessage(e.target.value)}
-                />
-              </div>
-              <div className="mt-8 mb-8">
-                <Button className="w-full md:w-60 py-3 text-xl">SUBMIT</Button>
-              </div>
-            </Card>
-          </section>
-        </div>
+            <section className="mt-12">
+              <Card className="px-4 md:px-12">
+                <div className="grid gird-cols-1 md:grid-cols-2 gap-8 md:gap-12 pt-8">
+                  <InputField
+                    value={email}
+                    placeholder="EMAIL"
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                  <InputField
+                    value={name}
+                    placeholder="NAME"
+                    onChange={(e) => setName(e.target.value)}
+                  />
+                </div>
+                <div className="grid grid-cols-1 mt-8">
+                  <InputField
+                    type="textarea"
+                    value={messsage}
+                    placeholder="SEND MESSAGE"
+                    onChange={(e) => setMessage(e.target.value)}
+                  />
+                </div>
+                <div className="mt-8 mb-8">
+                  <Button
+                    className="w-full md:w-60 py-3 text-xl"
+                    onClick={() => setShowThanks(true)}
+                  >
+                    SUBMIT
+                  </Button>
+                </div>
+              </Card>
+            </section>
+          </div>
+        )}
 
         <Footer />
       </div>

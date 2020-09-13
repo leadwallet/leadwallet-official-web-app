@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Button from "../components/common/Button";
-import Card from "../components/common/Card";
+import RoadmapItem from "../components/common/RoadmapItem";
 
 const HomePage = () => {
   return (
@@ -39,6 +38,7 @@ const HomePage = () => {
           <div className="mt-8 flex flex-row justify-center">
             <iframe
               src="https://www.youtube.com/embed/kNq-vsWZMBE"
+              title="LEAD Wallet - World's Simplest Multi-Crypto Wallet and DeFi Access"
               width="560"
               height="315"
               frameborder="0"
@@ -137,18 +137,57 @@ const HomePage = () => {
             <div className="font-Montserrat-ExtraBold uppercase text-2xl mb-4">
               ROADMAP
             </div>
-            <div className="w-full md:w-2/3 mx-auto">
-              The Lead Wallet team is committed to providing a sophisticated yet
-              simple crypto wallet application that will enable anyone (either
-              newbie or expert) to store, send, receive, spend, exchange/swap
-              crypto assets at users’ convenience without the need to provide or
-              store user data. Lead Wallet will enable users across the globe at
-              any time to conveniently spend their cryptocurrency assets in
-              exchange for what they’ve always wanted to have or buy. In
-              addition, Lead Wallet will constantly research and provide
-              excellent blockchain technology and cryptocurrency application
-              scenarios that will further the adoption and use cases of
-              cryptocurrencies.
+            <div className="w-2/3 lg:w-1/3 mx-auto">
+              <RoadmapItem
+                phase={1}
+                description="Researched the Lead Wallet Idea and its viability"
+              />
+              <RoadmapItem
+                phase={2}
+                description="Assemble Core team members and launched project development."
+              />
+              <RoadmapItem
+                phase={3}
+                description="completion of the Lead Wallet website and whitepaper."
+              />
+              <RoadmapItem
+                phase={4}
+                description="Completion of Lead Wallet MVP"
+              />
+              <RoadmapItem
+                phase={5}
+                description="Launch Lead Wallet on play store and Apple Store."
+              />
+              <RoadmapItem
+                phase={6}
+                description="Launch a global marketing and promotion campaign."
+              />
+              <RoadmapItem
+                phase={7}
+                description="Lead Wallet Update: MultiSender and Staking Features integration"
+              />
+              <RoadmapItem
+                phase={8}
+                description="Lead Wallet Update: MultiSender and Staking Features integration"
+              />
+              <RoadmapItem
+                phase={9}
+                description="Improve Staking Service to accommodate more PoS and DPoS cryptocurrencies"
+              />
+              <RoadmapItem
+                phase={10}
+                description="Acquire Crypto Exchange, Payment and Regulatory Licenses."
+              />
+              <RoadmapItem
+                phase={11}
+                description="Launch Lead Swap and Exchange Services."
+              />
+              <RoadmapItem
+                phase={12}
+                description="Launch Global Awareness Campaign (Regional Lead Meetups
+                  globally) to expose the Lead Wallet brand."
+                hideBar={true}
+              />
             </div>
           </div>
         </div>
