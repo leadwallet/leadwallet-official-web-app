@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
+import Carousel from "react-elastic-carousel";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import RoadmapItem from "../components/common/RoadmapItem";
 
 const HomePage = () => {
+  const carouselRef = useRef(null);
+
   return (
     <div className="w-full overflow-hidden">
       <div className="relative z-20 w-full top-0">
@@ -15,7 +18,17 @@ const HomePage = () => {
         <img
           src="/images/nosiy.png"
           alt=""
-          className="absolute z-10 second-noisy"
+          className="absolute z-10 third-noisy"
+        />
+        <img
+          src="/images/nosiy.png"
+          alt=""
+          className="absolute z-10 fourth-noisy"
+        />
+        <img
+          src="/images/nosiy.png"
+          alt=""
+          className="absolute z-10 fifth-noisy"
         />
       </div>
 
@@ -41,8 +54,8 @@ const HomePage = () => {
               title="LEAD Wallet - World's Simplest Multi-Crypto Wallet and DeFi Access"
               width="560"
               height="315"
-              frameborder="0"
-              allowfullscreen="allowfullscreen"
+              frameBorder="0"
+              allowFullScreen="allowfullscreen"
             ></iframe>
           </div>
 
@@ -52,15 +65,132 @@ const HomePage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/images/lbank.png" width="560" height="315" />
+              <img src="/images/lbank.png" width="560" height="315" alt="" />
             </a>
           </div>
 
           <hr className="w-full sm:w-5/6 mx-auto border-dashed border-2 mb-2" />
 
+          <div className="w-full mx-auto mt-8 mb-2">
+            <Carousel
+              itemsToShow={1}
+              showArrows={false}
+              enableAutoPlay={true}
+              autoPlaySpeed={5000}
+              onNextEnd={(_, currentPage) => {
+                if (currentPage === 3) {
+                  setTimeout(() => carouselRef.current.goTo(0), 5000);
+                }
+              }}
+              ref={carouselRef}
+              renderPagination={({ pages, activePage, onClick }) => (
+                <div className="flex flex-row mt-4">
+                  {pages.map((page, idx) => {
+                    const isActive = page === activePage;
+                    return (
+                      <div
+                        key={idx}
+                        className={`w-2 h-2 mx-2 rounded-full cursor-pointer bg-white border-gray-500 ${
+                          isActive ? "" : "opacity-50"
+                        }`}
+                        onClick={() => onClick(page)}
+                      ></div>
+                    );
+                  })}
+                </div>
+              )}
+            >
+              <div className="w-full md:w-2/3 text-white text-center">
+                <img
+                  src="/images/store.svg"
+                  alt=""
+                  width="100"
+                  className="mx-auto"
+                />
+                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                  Store
+                </div>
+                <div>
+                  Lead Wallet is a decentralized multi-crypto wallet application
+                  perfectly designed for DeFi access and cross-chain
+                  capabilities. Lead allows users to securely store their crypto
+                  assets and can be used for transactions on a P2P level without
+                  any third party intermediaries. Lead Wallet supports multiple
+                  cryptocurrencies such as BTC, ETH, DOT, the majority of ERC-20
+                  tokens, and 100 more cryptocurrencies. To make our platform
+                  even more convenient for users, Lead Wallet uses the best User
+                  Interface and security practices to simplify the use of our
+                  platform capabilities across all networks.
+                </div>
+              </div>
+              <div className="w-full md:w-2/3 text-white text-center">
+                <img
+                  src="/images/spend.svg"
+                  alt=""
+                  width="100"
+                  className="mx-auto"
+                />
+                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                  Spend
+                </div>
+                <div>
+                  Cryptocurrencies are meant to be spent like real currencies.
+                  The Lead C-marketplace is synonymous to an e-marketplace where
+                  goods are exchanged digitally. Hence, with the C-marketplace
+                  listed in Lead Wallet, users are able to spend their
+                  cryptocurrencies on the goods and services directly on the
+                  Lead Wallet application.
+                </div>
+              </div>
+              <div className="w-full md:w-2/3 text-white text-center">
+                <img
+                  src="/images/swap.svg"
+                  alt=""
+                  width="100"
+                  className="mx-auto"
+                />
+                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                  Swap
+                </div>
+                <div>
+                  You will be able to instantly swap from one crypto asset to
+                  another and from crypto to fiat by using our Swap feature. Our
+                  crypto wallet is designed to be as user-friendly as possible
+                  with minimal learning curves. For example, you will be able to
+                  instantly swap from BTC to YFI or from LINK to USDT or other
+                  supported crypto assets. This is perfect for users who want to
+                  provide liquidity to various DeFi protocols using different
+                  crypto assets.
+                </div>
+              </div>
+              <div className="w-full md:w-2/3 text-white text-center">
+                <img
+                  src="/images/stake.svg"
+                  alt=""
+                  width="100"
+                  className="mx-auto"
+                />
+                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                  Stake
+                </div>
+                <div>
+                  This Lead feature allows users to hold PoS based coins and
+                  other related coins by staking them directly in their Lead
+                  Wallet account, in exchange for a certain amount of staking
+                  rewards according to how the blockchain rewards users who
+                  staked coins. You will receive extra benefits if you decide to
+                  stake using Lead Wallet. This feature which is also known as a
+                  Stake-as-a-Service (SaaS) is beneficial both to stakers and
+                  blockchains built on PoS and other related staking algorithms.
+                </div>
+              </div>
+            </Carousel>
+          </div>
+
           <div className="w-full">
             <img
               src="/images/wallet-preview.png"
+              alt=""
               className="w-full lg:w-2/3 mx-auto"
             />
           </div>
@@ -97,6 +227,7 @@ const HomePage = () => {
           <div className="w-full mb-24">
             <img
               src="/images/ecosystem.png"
+              alt=""
               className="w-full sm:w-2/3 max-w-xl mx-auto"
             />
           </div>
