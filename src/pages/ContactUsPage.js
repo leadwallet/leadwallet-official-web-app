@@ -44,7 +44,7 @@ const ContactUsPage = () => {
               <div className="font-Montserrat-ExtraBold text-white text-3xl mb-2">
                 Thank you for contacting us
               </div>
-              <div className="text-white w-5/6 mx-auto leading-7">
+              <div className="text-white w-full md:w-5/6 mx-auto leading-7">
                 For more information please reach out to:{" "}
                 <a
                   className="text-blue-300"

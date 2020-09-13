@@ -30,7 +30,7 @@ const AboutUsPage = () => {
             <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
               ABOUT US
             </div>
-            <div className="text-white w-5/6 mx-auto leading-7">
+            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
               The Lead Wallet team is committed to providing a sophisticated yet
               simple crypto wallet application that will enable anyone (either
               newbie or expert) to store, send, receive, spend, exchange/swap

@@ -35,7 +35,7 @@ const Teampage = () => {
             <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
               TEAM AND ADVISORS
             </div>
-            <div className="text-white w-5/6 mx-auto leading-7">
+            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
               The Lead team members and advisors are globally distributed with
               members based in Nigeria, India, Singapore, Indonesia, Russia,
               China, etc. The team and advisor panel is continually growing.
