@@ -916,6 +916,13 @@ body {
   height: 2000px;
 }
 
+.token-gradient {
+  background: transparent linear-gradient(180deg, #12072b 0%, #cc1962 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  height: 2000px;
+}
+
 .input-bg {
   background-color: rgba(255, 255, 255, 0.22);
 }
@@ -938,6 +945,14 @@ body {
 .second-noisy {
   top: 1100px;
   left: -700px;
+  width: 1400px;
+  max-width: initial;
+}
+
+.third-noisy {
+  transform: rotate(180deg);
+  top: 1300px;
+  right: -700px;
   width: 1400px;
   max-width: initial;
 }

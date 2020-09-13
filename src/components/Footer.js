@@ -7,14 +7,11 @@ export default () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
           <div className="logo hidden lg:flex flex-row items-center">
             <img
-              src="/images/logo.svg"
-              width="40"
+              src="/images/full-logo.svg"
+              width="180"
               className="cursor-pointer"
               alt="LEAD"
             />
-            <div className="font-Montserrat-ExtraBold text-white text-4xl ml-2">
-              LEAD
-            </div>
           </div>
           <div className="text-white leading-7 text-xs cursor-pointer">
             <div className="font-Montserrat-ExtraBold uppercase">Products</div>

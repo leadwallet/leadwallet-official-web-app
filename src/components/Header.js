@@ -6,14 +6,11 @@ export default () => {
       <div className="flex flex-row justify-between items-center">
         <div className="logo flex flex-row items-center">
           <img
-            src="/images/logo.svg"
-            width="40"
+            src="/images/full-logo.svg"
+            width="180"
             className="cursor-pointer"
             alt="LEAD"
           />
-          <div className="text-white font-Montserrat-ExtraBold text-4xl ml-2">
-            LEAD
-          </div>
         </div>
         <div className="cursor-pointer">
           <img src="/images/hamburgar.svg" width="40" alt="hamburgar" />
