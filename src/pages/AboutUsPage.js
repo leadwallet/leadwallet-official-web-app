@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Button from "../components/common/Button";
-import InputField from "../components/common/InputField";
-import Card from "../components/common/Card";
 
 const AboutUsPage = () => {
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [messsage, setMessage] = useState("");
   return (
     <div className="w-full overflow-hidden">
       <div className="relative z-20 w-full top-0">
@@ -56,19 +50,39 @@ const AboutUsPage = () => {
               Follow Us
             </div>
             <div className="flex flex-row justify-center">
-              <a href="https://linkedin.com" className="mx-3 md:mx-8">
+              <a
+                href="https://www.linkedin.com/company/leadwallet"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-3 md:mx-8"
+              >
                 <img src="/images/linkedin.svg" alt="" width="60" />
               </a>
 
-              <a href="https://instagram.com" className="mx-3 md:mx-8">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-3 md:mx-8"
+              >
                 <img src="/images/instagram.svg" alt="" width="60" />
               </a>
 
-              <a href="https://telegram.com" className="mx-3 md:mx-8">
+              <a
+                href="https://t.me/leadwallet"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-3 md:mx-8"
+              >
                 <img src="/images/telegram.svg" alt="" width="60" />
               </a>
 
-              <a href="https://reddit.com" className="mx-3 md:mx-8">
+              <a
+                href="https://www.reddit.com/r/LeadWallet"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-3 md:mx-8"
+              >
                 <img src="/images/reddit.svg" alt="" width="60" />
               </a>
             </div>

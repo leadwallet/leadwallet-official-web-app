@@ -30,10 +30,10 @@ body {
 }
 
 .home-gradient {
-  background: transparent linear-gradient(180deg, #12072b 0%, #cc1962 400%) 0%
+  background: transparent linear-gradient(180deg, #12072b 0%, #cc1962 100%) 0%
     0% no-repeat padding-box;
   opacity: 1;
-  height: 3000px;
+  height: 8000px;
 }
 
 .contactus-gradient {
