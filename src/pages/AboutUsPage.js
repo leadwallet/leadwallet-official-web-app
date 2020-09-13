@@ -56,19 +56,19 @@ const AboutUsPage = () => {
               Follow Us
             </div>
             <div className="flex flex-row justify-center">
-              <a href="https://linkedin.com" className="mx-8">
+              <a href="https://linkedin.com" className="mx-3 md:mx-8">
                 <img src="/images/linkedin.svg" alt="" width="60" />
               </a>
 
-              <a href="https://instagram.com" className="mx-8">
+              <a href="https://instagram.com" className="mx-3 md:mx-8">
                 <img src="/images/instagram.svg" alt="" width="60" />
               </a>
 
-              <a href="https://telegram.com" className="mx-8">
+              <a href="https://telegram.com" className="mx-3 md:mx-8">
                 <img src="/images/telegram.svg" alt="" width="60" />
               </a>
 
-              <a href="https://reddit.com" className="mx-8">
+              <a href="https://reddit.com" className="mx-3 md:mx-8">
                 <img src="/images/reddit.svg" alt="" width="60" />
               </a>
             </div>
