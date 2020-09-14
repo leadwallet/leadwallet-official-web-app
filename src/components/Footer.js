@@ -52,7 +52,7 @@ export default () => {
             {/* <div>Legal</div> */}
             <div>Privacy Policy</div>
             <a
-              href="https://leadwallet.io/en/docs/Terms of Service.pdf"
+              href="/en/docs/Terms of Service.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
