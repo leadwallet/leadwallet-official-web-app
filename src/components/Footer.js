@@ -7,7 +7,7 @@ export default () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
           <a href="/" className="logo hidden lg:flex flex-row items-center">
             <img
-              src="/images/full-logo.svg"
+              src="/images/full-logo.png"
               width="180"
               className="cursor-pointer"
               alt="LEAD"

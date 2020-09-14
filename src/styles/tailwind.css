@@ -598,6 +598,13 @@ video {
 }
 
 @font-face {
+  font-family: "Montserrat-Black";
+
+  src: local("Montserrat-Black"),
+    url(/fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
+}
+
+@font-face {
   font-family: "Montserrat-ExtraBold";
 
   src: local("Montserrat-ExtraBold"),
@@ -957,9 +964,24 @@ body {
   max-width: initial;
 }
 
+.fourth-noisy {
+  top: 3000px;
+  left: -50px;
+  width: 1400px;
+  max-width: initial;
+}
+
 .bottom-noisy {
   top: 2800px;
   left: -700px;
+  width: 1400px;
+  max-width: initial;
+}
+
+.fifth-noisy {
+  transform: rotate(180deg);
+  top: 4500px;
+  right: -200px;
   width: 1400px;
   max-width: initial;
 }

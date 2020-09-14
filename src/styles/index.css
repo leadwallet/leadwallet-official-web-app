@@ -7,6 +7,12 @@
 }
 
 @font-face {
+  font-family: "Montserrat-Black";
+  src: local("Montserrat-Black"),
+    url(/fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
+}
+
+@font-face {
   font-family: "Montserrat-ExtraBold";
   src: local("Montserrat-ExtraBold"),
     url(/fonts/Montserrat/Montserrat-ExtraBold.ttf) format("truetype");
@@ -27,6 +33,29 @@ body {
 .font-Montserrat-ExtraBold {
   font-family: "Montserrat-ExtraBold";
   font-style: normal;
+}
+
+.Montserrat-Black {
+  font-family: "Montserrat-Black";
+  font-style: normal;
+}
+
+.intro-video {
+  max-width: 560px;
+  height: 315px;
+  width: 100%;
+}
+
+@media (max-width: 360px) {
+  .intro-video {
+    height: 180px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .intro-video {
+    height: 280px;
+  }
 }
 
 .home-gradient {

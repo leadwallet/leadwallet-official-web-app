@@ -28,7 +28,7 @@ const TokenPage = () => {
 
         <div className="container mx-auto mb-12 px-4">
           <section className="mt-8 text-center">
-            <div className="font-Montserrat-ExtraBold uppercase text-white text-4xl mb-2">
+            <div className="Montserrat-Black uppercase text-white text-4xl mb-2">
               LEAD TOKEN
             </div>
             <div className="text-white w-full md:w-5/6 mx-auto leading-7">
@@ -83,7 +83,7 @@ const TokenPage = () => {
           </section>
 
           <section className="mt-20 text-center">
-            <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
+            <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
               WHY LEAD TOKEN?
             </div>
             <div className="text-white w-5/6 mx-auto leading-7">
@@ -96,7 +96,7 @@ const TokenPage = () => {
           </section>
 
           <section className="mt-20 text-center">
-            <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
+            <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
               TOKEN DISTRIBUTION
             </div>
             <div className="text-white w-5/6 mx-auto leading-7">

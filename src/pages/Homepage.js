@@ -40,7 +40,7 @@ const HomePage = () => {
         <Header />
 
         <div className="container mx-auto mb-48 px-4">
-          <div className="font-Montserrat-ExtraBold uppercase text-white text-5xl text-center">
+          <div className="Montserrat-Black uppercase text-white text-3xl sm:text-4xl md:text-5xl text-center">
             WORLD'S Simplest Crypto Wallet
           </div>
 
@@ -52,8 +52,7 @@ const HomePage = () => {
             <iframe
               src="https://www.youtube.com/embed/kNq-vsWZMBE"
               title="LEAD Wallet - World's Simplest Multi-Crypto Wallet and DeFi Access"
-              width="560"
-              height="315"
+              className="intro-video"
               frameBorder="0"
               allowFullScreen="allowfullscreen"
             ></iframe>
@@ -69,7 +68,7 @@ const HomePage = () => {
             </a>
           </div>
 
-          <hr className="w-full sm:w-5/6 mx-auto border-dashed border-2 mb-2" />
+          <hr className="w-full sm:w-5/6 mx-auto border-dashed border mb-2" />
 
           <div className="w-full mx-auto mt-8 mb-2">
             <Carousel
@@ -107,7 +106,7 @@ const HomePage = () => {
                   width="100"
                   className="mx-auto"
                 />
-                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                <div className="Montserrat-Black uppercase text-2xl mb-1">
                   Store
                 </div>
                 <div>
@@ -130,7 +129,7 @@ const HomePage = () => {
                   width="100"
                   className="mx-auto"
                 />
-                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                <div className="Montserrat-Black uppercase text-2xl mb-1">
                   Spend
                 </div>
                 <div>
@@ -149,7 +148,7 @@ const HomePage = () => {
                   width="100"
                   className="mx-auto"
                 />
-                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                <div className="Montserrat-Black uppercase text-2xl mb-1">
                   Swap
                 </div>
                 <div>
@@ -170,7 +169,7 @@ const HomePage = () => {
                   width="100"
                   className="mx-auto"
                 />
-                <div className="font-Montserrat-ExtraBold uppercase text-3xl mb-1">
+                <div className="Montserrat-Black uppercase text-2xl mb-1">
                   Stake
                 </div>
                 <div>
@@ -196,7 +195,7 @@ const HomePage = () => {
           </div>
 
           <div className="mb-16 text-center text-white">
-            <div className="font-Montserrat-ExtraBold uppercase text-2xl mb-4">
+            <div className="Montserrat-Black uppercase text-2xl mb-4">
               HOW IT WORKS
             </div>
             <div className="w-full md:w-2/3 mx-auto">
@@ -209,7 +208,7 @@ const HomePage = () => {
           </div>
 
           <div className="mb-16 text-center text-white">
-            <div className="font-Montserrat-ExtraBold uppercase text-2xl mb-4">
+            <div className="Montserrat-Black uppercase text-2xl mb-4">
               WHY LEAD?
             </div>
             <div className="w-full md:w-2/3 mx-auto">
@@ -233,7 +232,7 @@ const HomePage = () => {
           </div>
 
           <div className="mb-16 text-center text-white">
-            <div className="font-Montserrat-ExtraBold uppercase text-2xl mb-4">
+            <div className="Montserrat-Black uppercase text-2xl mb-4">
               LEARN ABOUT LEAD TOKEN
             </div>
             <div className="w-full md:w-2/3 mx-auto">
@@ -246,7 +245,7 @@ const HomePage = () => {
           </div>
 
           <div className="mb-16 text-center text-white">
-            <div className="font-Montserrat-ExtraBold uppercase text-2xl mb-4">
+            <div className="Montserrat-Black uppercase text-2xl mb-4">
               MISSION AND VISION
             </div>
             <div className="w-full md:w-2/3 mx-auto">
@@ -265,10 +264,8 @@ const HomePage = () => {
           </div>
 
           <div className="mb-16 text-center text-white">
-            <div className="font-Montserrat-ExtraBold uppercase text-2xl mb-4">
-              ROADMAP
-            </div>
-            <div className="w-2/3 lg:w-1/3 mx-auto">
+            <div className=" uppercase text-2xl mb-4">ROADMAP</div>
+            <div className="w-full sm:w-2/3 lg:w-1/3 mx-auto">
               <RoadmapItem
                 phase={1}
                 description="Researched the Lead Wallet Idea and its viability"

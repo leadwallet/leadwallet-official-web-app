@@ -60,7 +60,7 @@ const AboutUsPage = () => {
               </a>
 
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/lead_wallet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mx-3 md:mx-8"

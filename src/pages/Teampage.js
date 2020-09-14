@@ -32,7 +32,7 @@ const Teampage = () => {
 
         <div className="container mx-auto mb-12 px-4">
           <section className="mt-8 text-center">
-            <div className="font-Montserrat-ExtraBold uppercase text-white text-4xl mb-2">
+            <div className="Montserrat-Black uppercase text-white text-4xl mb-2">
               TEAM AND ADVISORS
             </div>
             <div className="text-white w-full md:w-5/6 mx-auto leading-7">
@@ -53,8 +53,16 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="font-Montserrat-ExtraBold text-xl">
+                <div className="Montserrat-Black text-xl flex flex-row items-center">
                   Obasi Francis Ifegwu
+                  <a
+                    href="https://www.linkedin.com/mwlite/in/obasi-francis-ifegwu-79829794"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2"
+                  >
+                    <img src="/images/linkedin.svg" alt="" width="30" />
+                  </a>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Executive Officer
@@ -71,7 +79,7 @@ const Teampage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-24">
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
                   src="/images/henry.png"
@@ -81,8 +89,16 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="font-Montserrat-ExtraBold text-xl">
+                <div className="Montserrat-Black text-xl flex flex-row items-center">
                   Henry Onyebuchi
+                  <a
+                    href="https://www.linkedin.com/in/henry-onyebuchi-116501123"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2"
+                  >
+                    <img src="/images/linkedin.svg" alt="" width="30" />
+                  </a>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Technology Officer
@@ -101,15 +117,23 @@ const Teampage = () => {
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
-                  src="/images/rect.png"
+                  src="/images/ruddy.png"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="font-Montserrat-ExtraBold text-xl">
+                <div className="Montserrat-Black text-xl flex flex-row items-center">
                   Ruddy Setiadi Gunawan
+                  <a
+                    href="http://linkedin.com/in/ruddy-setiadi-gunawan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2"
+                  >
+                    <img src="/images/linkedin.svg" alt="" width="30" />
+                  </a>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Marketing Officer
@@ -128,7 +152,7 @@ const Teampage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
                   src="/images/rect.png"
@@ -138,7 +162,7 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="font-Montserrat-ExtraBold text-xl">
+                <div className="text-xl">
                   Jaswant Kumar
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
@@ -156,20 +180,28 @@ const Teampage = () => {
                   his country at many world stages.
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
-                  src="/images/rect.png"
+                  src="/images/eliezer.png"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="font-Montserrat-ExtraBold text-xl">
+                <div className="Montserrat-Black text-xl flex flex-row items-center">
                   Chianakwalam Eliezer
+                  <a
+                    href="https://www.linkedin.com/in/eliezer-chianakwalam-a5a9b011b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2"
+                  >
+                    <img src="/images/linkedin.svg" alt="" width="30" />
+                  </a>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Communication Officer
@@ -188,7 +220,7 @@ const Teampage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
                   src="/images/rect.png"
@@ -198,7 +230,7 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="font-Montserrat-ExtraBold text-xl">
+                <div className="text-xl">
                   Vinay Yadav
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
@@ -226,7 +258,7 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="font-Montserrat-ExtraBold text-xl">
+                <div className="text-xl">
                   Neil Mani
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
@@ -246,7 +278,7 @@ const Teampage = () => {
                   in a few business houses.
                 </div>
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
 

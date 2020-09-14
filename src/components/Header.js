@@ -6,7 +6,7 @@ export default () => {
       <div className="flex flex-row justify-between items-center">
         <a href="/" className="logo flex flex-row items-center">
           <img
-            src="/images/full-logo.svg"
+            src="/images/full-logo.png"
             width="180"
             className="cursor-pointer"
             alt="LEAD"
