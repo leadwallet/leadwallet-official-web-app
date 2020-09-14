@@ -21,7 +21,7 @@ const HomePage = () => {
           alt=""
           className="absolute z-10 third-noisy"
         />
-        <img
+        {/* <img
           src="/images/nosiy.png"
           alt=""
           className="absolute z-10 fourth-noisy"
@@ -30,7 +30,7 @@ const HomePage = () => {
           src="/images/nosiy.png"
           alt=""
           className="absolute z-10 fifth-noisy"
-        />
+        /> */}
       </div>
 
       <div className="relative z-10 w-full top-0">
@@ -42,7 +42,7 @@ const HomePage = () => {
 
         <div className="container mx-auto mb-48 px-4">
           <div className="Montserrat-Black uppercase text-white text-3xl sm:text-4xl md:text-5xl text-center">
-            WORLD'S Simplest Crypto Wallet
+            WORLD'S Simplest Crypto Wallet and Defi Access
           </div>
 
           <div className="uppercase text-white text-xl text-center">

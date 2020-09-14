@@ -11,11 +11,11 @@ const AboutUsPage = () => {
           alt=""
           className="absolute z-10 top-noisy"
         />
-        <img
+        {/* <img
           src="/images/nosiy.png"
           alt=""
           className="absolute z-10 second-noisy"
-        />
+        /> */}
       </div>
 
       <div className="relative z-10 w-full top-0">
@@ -46,12 +46,12 @@ const AboutUsPage = () => {
           </section>
 
           <section className="mt-16 text-center">
-            <img
+            {/* <img
               src="/images/product.png"
               alt=""
               width="100"
               className="mx-auto"
-            />
+            /> */}
             <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
               PRODUCT
             </div>
@@ -66,7 +66,7 @@ const AboutUsPage = () => {
             </div>
           </section>
 
-          <section className="mt-24">
+          <section className="mt-48">
             <div className="uppercase text-white text-2xl mb-4 text-center">
               Follow Us
             </div>
