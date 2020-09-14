@@ -1,6 +1,9 @@
+const { fontSize } = require("tailwindcss/defaultTheme");
+
 module.exports = {
   theme: {
     fontSize: {
+      ...fontSize,
       xxs: "7px",
     },
     extend: {

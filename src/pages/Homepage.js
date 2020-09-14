@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Carousel from "react-elastic-carousel";
+import Button from "../components/common/Button";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import RoadmapItem from "../components/common/RoadmapItem";
@@ -49,6 +50,42 @@ const HomePage = () => {
           </div>
 
           <div className="mt-8 flex flex-row justify-center">
+            <Button
+              bgColor="transparent"
+              showBorder={true}
+              className="flex flex-row items-center text-xl w-full md:w-64 justify-center"
+              onClick={() =>
+                window.open(
+                  "https://uniswap.info/token/0x1dd80016e3d4ae146ee2ebb484e8edd92dacc4ce",
+                  "_blank"
+                )
+              }
+            >
+              <img
+                src="/images/uniswap.svg"
+                width="24"
+                alt=""
+                className="mr-2"
+              />
+              Uniswap
+            </Button>
+          </div>
+
+          <div className="mt-8 flex flex-row justify-center">
+            <Button
+              bgColor="transparent"
+              showBorder={true}
+              className="flex flex-row items-center text-xl w-full md:w-64 justify-center"
+              onClick={() =>
+                window.open("https://youtu.be/kNq-vsWZMBE", "_blank")
+              }
+            >
+              <img src="/images/play.svg" width="36" alt="" className="mr-2" />
+              Watch Demo
+            </Button>
+          </div>
+
+          {/* <div className="mt-8 flex flex-row justify-center">
             <iframe
               src="https://www.youtube.com/embed/kNq-vsWZMBE"
               title="LEAD Wallet - World's Simplest Multi-Crypto Wallet and DeFi Access"
@@ -56,9 +93,9 @@ const HomePage = () => {
               frameBorder="0"
               allowFullScreen="allowfullscreen"
             ></iframe>
-          </div>
+          </div> */}
 
-          <div className="mt-8 flex flex-row justify-center mb-12">
+          {/* <div className="mt-8 flex flex-row justify-center mb-12">
             <a
               href="https://support.lbank.me/hc/en-gb/articles/900002564983"
               target="_blank"
@@ -66,11 +103,11 @@ const HomePage = () => {
             >
               <img src="/images/lbank.png" width="560" height="315" alt="" />
             </a>
-          </div>
+          </div> */}
 
-          <hr className="w-full sm:w-5/6 mx-auto border-dashed border mb-2" />
+          {/* <hr className="w-full sm:w-5/6 mx-auto border-dashed border mb-2" /> */}
 
-          <div className="w-full mx-auto mt-8 mb-2">
+          <div className="w-full mx-auto mt-12 mb-2">
             <Carousel
               itemsToShow={1}
               showArrows={false}

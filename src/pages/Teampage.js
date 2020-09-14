@@ -53,16 +53,26 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="Montserrat-Black text-xl flex flex-row items-center">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
                   Obasi Francis Ifegwu
-                  <a
-                    href="https://www.linkedin.com/mwlite/in/obasi-francis-ifegwu-79829794"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-2"
-                  >
-                    <img src="/images/linkedin.svg" alt="" width="30" />
-                  </a>
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/mwlite/in/obasi-francis-ifegwu-79829794"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://www.twitter.com/obasifrancis"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                  </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Executive Officer
@@ -89,16 +99,26 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="Montserrat-Black text-xl flex flex-row items-center">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
                   Henry Onyebuchi
-                  <a
-                    href="https://www.linkedin.com/in/henry-onyebuchi-116501123"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-2"
-                  >
-                    <img src="/images/linkedin.svg" alt="" width="30" />
-                  </a>
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/in/henry-onyebuchi-116501123"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://www.twitter.com/Hendobox"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                  </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Technology Officer
@@ -124,16 +144,26 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="Montserrat-Black text-xl flex flex-row items-center">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
                   Ruddy Setiadi Gunawan
-                  <a
-                    href="http://linkedin.com/in/ruddy-setiadi-gunawan"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-2"
-                  >
-                    <img src="/images/linkedin.svg" alt="" width="30" />
-                  </a>
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="http://linkedin.com/in/ruddy-setiadi-gunawan"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://www.twitter.com/nothereforchat"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                  </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Marketing Officer
@@ -192,16 +222,26 @@ const Teampage = () => {
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="Montserrat-Black text-xl flex flex-row items-center">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
                   Chianakwalam Eliezer
-                  <a
-                    href="https://www.linkedin.com/in/eliezer-chianakwalam-a5a9b011b/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-2"
-                  >
-                    <img src="/images/linkedin.svg" alt="" width="30" />
-                  </a>
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/in/eliezer-chianakwalam-a5a9b011b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://twitter.com/Anc_Eliezer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                  </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Communication Officer

@@ -4,6 +4,7 @@ import cx from "classnames";
 export default ({
   color = "white",
   bgColor = "primary",
+  borderColor = "primary",
   showBorder = false,
   onClick,
   className,
@@ -15,13 +16,13 @@ export default ({
       className={cx(
         className,
         "rounded-md px-4 py-2 mx-1 uppercase font-Montserrat-ExtraBold",
-        showBorder ? "border" : "",
+        showBorder ? "border-2" : "",
         "bg-" + bgColor,
         "hover:bg-" + bgColor + "-hover",
         "hover:border-" + bgColor + "-hover",
         "text-" + color,
         "hover:text-" + color + "-hover",
-        "border-" + color,
+        "border-" + borderColor,
         "hover:border-" + color + "-hover"
       )}
     >

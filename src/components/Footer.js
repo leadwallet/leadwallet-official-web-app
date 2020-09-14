@@ -37,20 +37,24 @@ export default () => {
             <div>The PSP Solution</div>
             <div>Use Your Cryptocurrency</div>
           </div> */}
-          <div className="text-white leading-7 text-xs cursor-pointer">
+          <div className="text-white leading-7 text-xs cursor-pointer flex flex-col">
             <div className="font-Montserrat-ExtraBold uppercase">
               Documentation
             </div>
-            {/* <div>API Documentation</div> */}
             <a
-              href="https://leadwallet.io/en/docs/whitepaper.pdf"
+              href="/en/docs/White Paper v1_0_2.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
               Whitepaper
             </a>
-            {/* <div>Legal</div> */}
-            <div>Privacy Policy</div>
+            <a
+              href="/en/docs/Privacy Policy.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Privacy Policy
+            </a>
             <a
               href="/en/docs/Terms of Service.pdf"
               target="_blank"
