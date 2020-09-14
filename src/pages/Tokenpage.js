@@ -117,38 +117,38 @@ const TokenPage = () => {
             <div className="text-white w-full lg:w-2/3 mx-auto mt-12">
               <div className="text-md text-white font-Montserrat-ExtraBold py-2 text-left w-full relative">
                 <img src="/images/bar_1.svg" alt="" className="w-full" />
-                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xs sm:text-sm md:text-base">
+                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xxs sm:text-sm md:text-base">
                   Presale 300,000,000 Token(Unlocked)
                 </div>
               </div>
               <div className="text-md text-white font-Montserrat-ExtraBold py-2 text-left w-full relative">
                 <img src="/images/bar_2.svg" alt="" className="w-full" />
-                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xs sm:text-sm md:text-base">
+                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xxs sm:text-sm md:text-base">
                   Marketing 50,000,000 (Unlocked)
                 </div>
               </div>
               <div className="text-md text-white font-Montserrat-ExtraBold py-2 text-left w-full relative">
                 <img src="/images/bar_3.svg" alt="" className="w-full" />
-                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xs sm:text-sm md:text-base">
+                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xxs sm:text-sm md:text-base">
                   Staking Programme 300,000,000(locked for 10 months)
                 </div>
               </div>
               <div className="text-md text-white font-Montserrat-ExtraBold py-2 text-left w-full relative">
                 <img src="/images/bar_4.png" alt="" className="w-full" />
-                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xs sm:text-sm md:text-base">
+                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xxs sm:text-sm md:text-base">
                   Uniswap Liquidity 140,000,000(locked permanently for
                   liquidity)
                 </div>
               </div>
               <div className="text-md text-white font-Montserrat-ExtraBold py-2 text-left w-full relative">
                 <img src="/images/bar_5.svg" alt="" className="w-full" />
-                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xs sm:text-sm md:text-base">
+                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xxs sm:text-sm md:text-base">
                   Team token 100,000,000 (locked for 10 months)
                 </div>
               </div>
               <div className="text-md text-white font-Montserrat-ExtraBold py-2 text-left w-full relative">
                 <img src="/images/bar_6.svg" alt="" className="w-full" />
-                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xs sm:text-sm md:text-base">
+                <div className="w-full h-full absolute flex flex-row items-center pl-1/6 top-0 text-xxs sm:text-sm md:text-base">
                   Dev/Ecosystem Funds 100,000,000(locked for 10 months)
                 </div>
               </div>
