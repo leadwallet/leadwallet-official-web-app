@@ -85,28 +85,6 @@ const HomePage = () => {
             </Button>
           </div>
 
-          {/* <div className="mt-8 flex flex-row justify-center">
-            <iframe
-              src="https://www.youtube.com/embed/kNq-vsWZMBE"
-              title="LEAD Wallet - World's Simplest Multi-Crypto Wallet and DeFi Access"
-              className="intro-video"
-              frameBorder="0"
-              allowFullScreen="allowfullscreen"
-            ></iframe>
-          </div> */}
-
-          {/* <div className="mt-8 flex flex-row justify-center mb-12">
-            <a
-              href="https://support.lbank.me/hc/en-gb/articles/900002564983"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="/images/lbank.png" width="560" height="315" alt="" />
-            </a>
-          </div> */}
-
-          {/* <hr className="w-full sm:w-5/6 mx-auto border-dashed border mb-2" /> */}
-
           <div className="w-full mx-auto mt-12 mb-2">
             <Carousel
               itemsToShow={1}
