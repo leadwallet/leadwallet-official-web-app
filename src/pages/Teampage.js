@@ -217,14 +217,13 @@ const Teampage = () => {
                 </div>
                 <div>
                   An entrepreneur with more than 7 years of experience in the
-                  startup environment working on different innovative solutions
-                  across designing, His passion for the blockchain scene stems
-                  from his personal experience working in the conventional
-                  marketing and design sector. Quickly he grew to realize that
-                  in this world, power is concentrated at the top. While the
-                  crypto scene offers a chance to rewrite the rulebook. He holds
-                  a design degree and has won international awards representing
-                  his country at many world stages.
+                  start-up environment working on different innovative solutions
+                  across designing, advertising and management industries to
+                  shape and drive businesses with creative ideas. Quickly he
+                  grew to realize that in this world, power is concentrated at
+                  the top. While the crypto/blockchain scene offers a chance to
+                  rewrite the rulebook. He hold a design degree and has won
+                  international awards representing India at many world stages.
                 </div>
               </div>
             </div>
