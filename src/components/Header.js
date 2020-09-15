@@ -8,7 +8,7 @@ export default () => {
     return (
       <button
         className={cx(
-          "menu",
+          "menu focus:outline-none",
           clicked ? "opened absolute z-50 top-0 right-1 mt-2" : ""
         )}
         onClick={() => {
