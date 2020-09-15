@@ -110,14 +110,14 @@ const Teampage = () => {
                     >
                       <img src="/images/linkedin.svg" alt="" width="30" />
                     </a>
-                    <a
+                    {/* <a
                       href="https://www.twitter.com/Hendobox"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
                     >
                       <img src="/images/twitter.svg" alt="" width="30" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
