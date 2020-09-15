@@ -181,18 +181,36 @@ const Teampage = () => {
               </div>
             </div>
 
-            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
-                  src="/images/rect.png"
+                  src="/images/kumar.png"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="text-xl">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
                   Jaswant Kumar
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/in/jaswantkumar-lead"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://twitter.com/Lead_JD"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                  </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Operating Officer
@@ -209,7 +227,7 @@ const Teampage = () => {
                   his country at many world stages.
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
