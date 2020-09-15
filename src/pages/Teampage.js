@@ -79,7 +79,7 @@ const Teampage = () => {
                 </div>
                 <div>
                   Obasi has over 7 years of experience in the start-up
-                  environment and is a o-founder of Lead Cyber Services Limited
+                  environment and is a Co-founder of Lead Cyber Services Limited
                   (LEAD Wallet). Obasi is charged with the responsibility of
                   daily operations of Lead in order to achieve the vision of
                   Lead Wallet so that millions of users worldwide will have
