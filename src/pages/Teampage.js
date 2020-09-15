@@ -124,12 +124,11 @@ const Teampage = () => {
                   Chief Technology Officer
                 </div>
                 <div>
-                  Henry is a co-founder of ICE Firm and Lead Cyber Services
-                  Limited (LEAD Wallet). He is an innovative and team-oriented
-                  strategist with a track record on startups and turnaround
-                  business situations. He has 4 years of extensive experience in
-                  blockchain, cryptocurrency development, ICO projects, smart
-                  contract development, sales/marketing for blockchain projects.
+                  Henry is a smart contract engineer, and also a co-founder of
+                  Lead wallet. He is passionate about creating blockchain
+                  solutions for optimal usage and user convenience. He has
+                  experience working with startups, in different capacity at
+                  both technical and non-technical.
                 </div>
               </div>
             </div>

@@ -46,7 +46,7 @@ const HomePage = () => {
           </div>
 
           <div className="uppercase text-white text-xl text-center">
-            Store, Send, Swap, Stake
+            Store, Spend, Swap, Stake
           </div>
 
           <div className="mt-8 flex flex-row justify-center">
