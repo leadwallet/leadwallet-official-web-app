@@ -42,7 +42,7 @@ const HomePage = () => {
 
         <div className="container mx-auto mb-48 px-4">
           <div className="Montserrat-Black uppercase text-white text-3xl sm:text-4xl md:text-5xl text-center">
-            XXXWORLD'S Simplest Crypto Wallet and Defi Access
+            WORLD'S Simplest Crypto Wallet and Defi Access
           </div>
 
           <div className="uppercase text-white text-xl text-center">
