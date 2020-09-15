@@ -318,7 +318,7 @@ const Teampage = () => {
                   Neil Mani
                   <div className="flex flex-row justify-center">
                     <a
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/mani-neil-26094b13a"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
