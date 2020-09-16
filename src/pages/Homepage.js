@@ -340,39 +340,39 @@ const HomePage = () => {
               method="post"
               id="mc-embedded-subscribe-form"
               name="mc-embedded-subscribe-form"
-              class="validate"
+              className="validate"
               target="_blank"
-              novalidate
+              noValidate
             >
               <div id="mc_embed_signup_scroll">
-                <label for="mce-EMAIL">Subscribe</label>
+                <label htmlFor="mce-EMAIL">Subscribe</label>
                 <input
                   type="email"
-                  value=""
+                  defaultValue=""
                   name="EMAIL"
-                  class="email"
+                  className="email"
                   id="mce-EMAIL"
                   placeholder="email address"
                   required
                 />
                 <div
-                  style="position: absolute; left: -5000px;"
+                  style={{ position: "absolute", left: "-5000px" }}
                   aria-hidden="true"
                 >
                   <input
                     type="text"
                     name="b_a59a82003746cc8ec56a684de_8b078d5141"
-                    tabindex="-1"
-                    value=""
+                    tabIndex="-1"
+                    defaultValue=""
                   />
                 </div>
-                <div class="clear">
+                <div className="clear">
                   <input
                     type="submit"
                     value="Subscribe"
                     name="subscribe"
                     id="mc-embedded-subscribe"
-                    class="button"
+                    className="button"
                   />
                 </div>
               </div>
