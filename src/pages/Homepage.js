@@ -201,7 +201,7 @@ const HomePage = () => {
             </Carousel>
           </div>
 
-          <div className="w-full">
+          <div className="w-full mb-12">
             <img
               src="/images/wallet-preview.png"
               alt=""
@@ -334,7 +334,7 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div id="mc_embed_signup">
+          {/* <div id="mc_embed_signup">
             <form
               action="https://gmail.us2.list-manage.com/subscribe/post?u=a59a82003746cc8ec56a684de&amp;id=8b078d5141"
               method="post"
@@ -377,7 +377,7 @@ const HomePage = () => {
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <Footer />
