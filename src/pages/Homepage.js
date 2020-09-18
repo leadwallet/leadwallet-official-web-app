@@ -201,7 +201,7 @@ const HomePage = () => {
             </Carousel>
           </div>
 
-          <div className="w-full">
+          <div className="w-full mb-12">
             <img
               src="/images/wallet-preview.png"
               alt=""
@@ -333,6 +333,51 @@ const HomePage = () => {
               />
             </div>
           </div>
+
+          {/* <div id="mc_embed_signup">
+            <form
+              action="https://gmail.us2.list-manage.com/subscribe/post?u=a59a82003746cc8ec56a684de&amp;id=8b078d5141"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              className="validate"
+              target="_blank"
+              noValidate
+            >
+              <div id="mc_embed_signup_scroll">
+                <label htmlFor="mce-EMAIL">Subscribe</label>
+                <input
+                  type="email"
+                  defaultValue=""
+                  name="EMAIL"
+                  className="email"
+                  id="mce-EMAIL"
+                  placeholder="email address"
+                  required
+                />
+                <div
+                  style={{ position: "absolute", left: "-5000px" }}
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="b_a59a82003746cc8ec56a684de_8b078d5141"
+                    tabIndex="-1"
+                    defaultValue=""
+                  />
+                </div>
+                <div className="clear">
+                  <input
+                    type="submit"
+                    value="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    className="button"
+                  />
+                </div>
+              </div>
+            </form>
+          </div> */}
         </div>
 
         <Footer />

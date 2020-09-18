@@ -1,10 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165" viewBox="0 0 165 165">
-  <g id="museum-24px" transform="translate(0 0.465)">
-    <g id="Group_3366" data-name="Group 3366">
-      <rect id="Rectangle_3323" data-name="Rectangle 3323" width="165" height="165" transform="translate(0 -0.465)" fill="none"/>
-    </g>
-    <g id="Group_3367" data-name="Group 3367" transform="translate(13.771 13.771)">
-      <path id="Path_6301" data-name="Path 6301" d="M139.71,63.969V50.2L70.855,2,2,50.2V63.969H15.771v61.969H2V139.71H139.71V125.939H125.939V63.969ZM98.4,112.168H84.626V84.626L70.855,105.282,57.084,84.626v27.542H43.313v-48.2H57.084L70.855,84.626,84.626,63.969H98.4Z" transform="translate(-2 -2)" fill="#fff"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="137.71" height="137.71" viewBox="0 0 137.71 137.71">
+    <path fill="#fff" d="M137.71 137.71H0v-13.771h13.771V61.97H0V48.2L68.855 0l68.855 48.2v13.77h-13.771v61.97h13.771v13.77zM68.729 64.765a26.418 26.418 0 1 0 10.315 2.082 26.335 26.335 0 0 0-10.315-2.082z"/>
 </svg>

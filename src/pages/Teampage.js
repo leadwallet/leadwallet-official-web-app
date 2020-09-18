@@ -79,7 +79,7 @@ const Teampage = () => {
                 </div>
                 <div>
                   Obasi has over 7 years of experience in the start-up
-                  environment and is a o-founder of Lead Cyber Services Limited
+                  environment and is a Co-founder of Lead Cyber Services Limited
                   (LEAD Wallet). Obasi is charged with the responsibility of
                   daily operations of Lead in order to achieve the vision of
                   Lead Wallet so that millions of users worldwide will have
@@ -217,14 +217,13 @@ const Teampage = () => {
                 </div>
                 <div>
                   An entrepreneur with more than 7 years of experience in the
-                  startup environment working on different innovative solutions
-                  across designing, His passion for the blockchain scene stems
-                  from his personal experience working in the conventional
-                  marketing and design sector. Quickly he grew to realize that
-                  in this world, power is concentrated at the top. While the
-                  crypto scene offers a chance to rewrite the rulebook. He holds
-                  a design degree and has won international awards representing
-                  his country at many world stages.
+                  start-up environment working on different innovative solutions
+                  across designing, advertising and management industries to
+                  shape and drive businesses with creative ideas. Quickly he
+                  grew to realize that in this world, power is concentrated at
+                  the top. While the crypto/blockchain scene offers a chance to
+                  rewrite the rulebook. He hold a design degree and has won
+                  international awards representing India at many world stages.
                 </div>
               </div>
             </div>
@@ -304,19 +303,37 @@ const Teampage = () => {
                   planning and monitoring the business.
                 </div>
               </div>
-            </div>
+            </div>*/}
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
-                  src="/images/rect.png"
+                  src="/images/neil.png"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="text-xl">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
                   Neil Mani
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/in/mani-neil-26094b13a"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    {/* <a
+                      href="https://twitter.com/Anc_Eliezer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a> */}
+                  </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Design Officer
@@ -335,7 +352,7 @@ const Teampage = () => {
                   in a few business houses.
                 </div>
               </div>
-            </div> */}
+            </div>
           </section>
         </div>
 
