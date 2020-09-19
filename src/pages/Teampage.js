@@ -276,25 +276,43 @@ const Teampage = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
-                  src="/images/rect.png"
+                  src="/images/vinay.png"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
                 />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
-                <div className="text-xl">
-                  Vinay Yadav
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
+                  Vinay Yadev
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="http://linkedin.com/in/vinayyadavlead/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    {/* <a
+                      href="https://twitter.com/Anc_Eliezer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a> */}
+                  </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
                   Chief Business Development Officer
                 </div>
                 <div>
-                  A Business Development Professional associated with tech
-                  industries for more than 11 years, Vinay has extensive work
+                  Business Development Professional associated with tech
+                  industries for more than 11 years, he has extensive work
                   experience across multiple business functions such as sales,
                   marketing, management and financial positions throughout his
                   decade-long career in the hardware, software and internet
@@ -303,7 +321,7 @@ const Teampage = () => {
                   planning and monitoring the business.
                 </div>
               </div>
-            </div>*/}
+            </div>
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img

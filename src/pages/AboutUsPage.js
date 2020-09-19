@@ -45,24 +45,27 @@ const AboutUsPage = () => {
             </div>
           </section>
 
-          <section className="mt-16 text-center">
-            {/* <img
-              src="/images/product.png"
-              alt=""
-              width="100"
-              className="mx-auto"
-            /> */}
-            <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
-              PRODUCT
+          <section className="mt-16 flex flex-col md:flex-row w-5/6 mx-auto">
+            <div className="w-full md:w-1/3">
+              <img
+                src="/images/app-product.png"
+                alt=""
+                className="mx-auto w-80 md:w-full lg:w-full xl:w-2/3"
+              />
             </div>
-            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
-              Lead Wallet is a decentralized multi-cryptocurrency application
-              based on the Android and iOS platforms. As a decentralized
-              cryptocurrency wallet, its users will be able to control how they
-              spend, store, and organize their funds. In addition, the wallet
-              allows users to spend, swap, exchange and stake their
-              cryptocurrency directly from the Lead Wallet interface via a very
-              short execution process.
+            <div className="w-full md:w-2/3 text-center md:text-left">
+              <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
+                PRODUCT
+              </div>
+              <div className="text-white leading-7">
+                Lead Wallet is a decentralized multi-cryptocurrency application
+                based on the Android and iOS platforms. As a decentralized
+                cryptocurrency wallet, its users will be able to control how
+                they spend, store, and organize their funds. In addition, the
+                wallet allows users to spend, swap, exchange and stake their
+                cryptocurrency directly from the Lead Wallet interface via a
+                very short execution process.
+              </div>
             </div>
           </section>
         </div>
