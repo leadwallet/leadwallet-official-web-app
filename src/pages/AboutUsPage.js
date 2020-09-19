@@ -45,11 +45,15 @@ const AboutUsPage = () => {
             </div>
           </section>
 
-          <section className="mt-16 flex flex-row w-5/6 mx-auto">
-            <div className="w-1/3">
-              <img src="/images/app-product.png" alt="" className="mx-auto" />
+          <section className="mt-16 flex flex-col md:flex-row w-5/6 mx-auto">
+            <div className="w-full md:w-1/3">
+              <img
+                src="/images/app-product.png"
+                alt=""
+                className="mx-auto w-80 md:w-full lg:w-full xl:w-2/3"
+              />
             </div>
-            <div className="w-2/3">
+            <div className="w-full md:w-2/3 text-center md:text-left">
               <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
                 PRODUCT
               </div>
