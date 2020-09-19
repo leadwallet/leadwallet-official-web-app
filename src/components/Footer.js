@@ -66,6 +66,22 @@ export default () => {
               >
                 <img src="/images/sm-medium.svg" alt="" width="20" />
               </a>
+              <a
+                href="https://t.me/Leadwallet"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mr-4"
+              >
+                <img src="/images/sm-telegram.svg" alt="" width="20" />
+              </a>
+              <a
+                href="https://discord.gg/62Zh9Ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mr-4"
+              >
+                <img src="/images/sm-discord.svg" alt="" width="20" />
+              </a>
             </div>
           </div>
           {/* <div className="text-white leading-7 text-xs cursor-pointer">
