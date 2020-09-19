@@ -40,7 +40,7 @@ const HomePage = () => {
       <div className="relative w-full z-30">
         <Header />
 
-        <div className="container mx-auto mb-48 px-4">
+        <div className="container mx-auto pb-48 px-4 force-height">
           <div className="Montserrat-Black uppercase text-white text-3xl sm:text-4xl md:text-5xl text-center">
             WORLD'S Simplest Crypto Wallet and Defi Access
           </div>
