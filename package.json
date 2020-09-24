@@ -27,7 +27,7 @@
     "extends": "react-app"
   },
   "scripts": {
-    "start": "npm-run-all build:clean build:style react:start",
+    "start": "npm-run-all \"build:clean build:style react:start\"",
     "react:start": "react-scripts --max_old_space_size=4096 start",
     "react:build": "react-scripts --max_old_space_size=4096 build",
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
