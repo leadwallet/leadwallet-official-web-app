@@ -26,7 +26,7 @@ const TokenPage = () => {
       <div className="relative w-full z-30">
         <Header />
 
-        <div className="container mx-auto mb-12 px-4">
+        <div className="container mx-auto pb-12 px-4 force-height">
           <section className="mt-8 text-center">
             <div className="Montserrat-Black uppercase text-white text-4xl mb-2">
               LEAD TOKEN

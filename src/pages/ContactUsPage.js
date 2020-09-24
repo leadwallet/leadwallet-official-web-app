@@ -33,7 +33,7 @@ const ContactUsPage = () => {
         <Header />
 
         {showThanks ? (
-          <div className="container mx-auto mb-48 px-4">
+          <div className="container mx-auto pb-48 px-4 force-height">
             <section className="w-full mt-48 text-center">
               <img
                 src="/images/check-circle.svg"
@@ -56,7 +56,7 @@ const ContactUsPage = () => {
             </section>
           </div>
         ) : (
-          <div className="container mx-auto mb-48 px-4">
+          <div className="container mx-auto pb-48 px-4 force-height">
             <section className="mt-8 text-center">
               <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
                 CONTACT US

@@ -25,7 +25,7 @@ const AboutUsPage = () => {
       <div className="relative w-full z-30">
         <Header />
 
-        <div className="container mx-auto mb-24 px-4">
+        <div className="container mx-auto pb-24 px-4 force-height">
           <section className="mt-8 text-center">
             <div className="font-Montserrat-ExtraBold uppercase text-white text-4xl mb-2">
               ABOUT US
@@ -45,7 +45,7 @@ const AboutUsPage = () => {
             </div>
           </section>
 
-          <section className="mt-16 flex flex-col md:flex-row w-5/6 mx-auto">
+          <section className="mt-16 flex flex-col-reverse md:flex-row w-5/6 mx-auto">
             <div className="w-full md:w-1/3">
               <img
                 src="/images/app-product.png"
@@ -57,7 +57,7 @@ const AboutUsPage = () => {
               <div className="font-Montserrat-ExtraBold uppercase text-white text-3xl mb-2">
                 PRODUCT
               </div>
-              <div className="text-white leading-7">
+              <div className="text-white leading-7 mb-4">
                 Lead Wallet is a decentralized multi-cryptocurrency application
                 based on the Android and iOS platforms. As a decentralized
                 cryptocurrency wallet, its users will be able to control how
