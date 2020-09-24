@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Staging Website link
 
-[Lead Wallet](https://leadwallet-staging.herokuapp.com)
+[Lead Wallet](https://leadwallet-prod.herokuapp.com/)
 
 ## Available Scripts for Development
 
