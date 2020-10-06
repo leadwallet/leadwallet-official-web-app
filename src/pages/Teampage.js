@@ -372,7 +372,7 @@ const Teampage = () => {
               </div> 
             </div>
             
-            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
                   src="/images/eliezer.png"
@@ -419,10 +419,10 @@ const Teampage = () => {
                   name within and beyond the blockchain space.
                 </div>
               </div>
-            </div>
+            </div> */}
 
 
-            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
                   src="/images/eliezer.png"
@@ -477,7 +477,7 @@ const Teampage = () => {
                   name within and beyond the blockchain space.
                 </div>
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
 
