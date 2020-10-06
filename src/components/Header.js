@@ -94,6 +94,16 @@ export default () => {
           >
             Contact Us
           </a>
+          <a
+            className={cx(
+              "transition duration-500 ease-in-out delay-500 py-4",
+              clicked ? "opacity-100" : "opacity-0"
+            )}
+            href="https://stake.leadwallet.io/"
+            target="_blank"
+          >
+            Stake
+          </a>
         </div>
       </div>
     </header>

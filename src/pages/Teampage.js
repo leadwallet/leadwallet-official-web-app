@@ -383,7 +383,7 @@ const Teampage = () => {
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
                 <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
-                  Chianakwalam Eliezer
+                  Kingsley Victor
                   <div className="flex flex-row justify-center">
                     <a
                       href="https://www.linkedin.com/in/eliezer-chianakwalam-a5a9b011b/"

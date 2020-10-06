@@ -5,7 +5,6 @@ import ContactUsPage from "./pages/ContactUsPage";
 import Tokenpage from "./pages/Tokenpage";
 import Teampage from "./pages/Teampage";
 import AboutUsPage from "./pages/AboutUsPage";
-import Staking from "./pages/Staking";
 
 const App = () => {
   return (
@@ -24,9 +23,6 @@ const App = () => {
       </Route>
       <Route path="/aboutus" exact>
         <AboutUsPage />
-      </Route>
-      <Route path="/staking" exact>
-        <Staking />
       </Route>
     </Switch>
   );
