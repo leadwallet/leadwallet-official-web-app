@@ -43,7 +43,7 @@ const TokenPage = () => {
           </section>
 
           <section className="mt-20">
-            <Card className="px-4 md:px-12">
+            <Card className="px-4 md:px-12">3
               <div className="grid grid-cols-1 sm:grid-cols-3">
                 <div className="mx-auto w-40 py-8">
                   <img
