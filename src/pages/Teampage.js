@@ -369,6 +369,113 @@ const Teampage = () => {
                   emerging technologies that have been helping user experience
                   in a few business houses.
                 </div>
+              </div> 
+            </div>
+            
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+              <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
+                <img
+                  src="/images/eliezer.png"
+                  alt=""
+                  className="w-full mx-auto"
+                  style={{ maxWidth: "200px" }}
+                />
+              </div>
+              <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
+                  Chianakwalam Eliezer
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/in/eliezer-chianakwalam-a5a9b011b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://twitter.com/Anc_Eliezer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                  </div>
+                </div>
+                <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
+                  Chief Communication Officer
+                </div>
+                <div>
+                  Eliezer is a business solutions provider with experience in
+                  data analysis. He is the Chief Communications Officer of Lead
+                  Wallet. He has about three years of experience helping to plan
+                  and execute business ideas for start-ups as well as
+                  established organizations. He is a Cofounder of ICE and Lead
+                  Cyber Services Limited (LEAD Wallet). Eliezer has been
+                  actively involved with projects in the blockchain industry for
+                  more than 3 years, filling various roles. Through his position
+                  as the CCO, he is committed to making Lead wallet a household
+                  name within and beyond the blockchain space.
+                </div>
+              </div>
+            </div>
+
+
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+              <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
+                <img
+                  src="/images/eliezer.png"
+                  alt=""
+                  className="w-full mx-auto"
+                  style={{ maxWidth: "200px" }}
+                />
+              </div>
+              <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
+                  Sam Ayorinde
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/in/sam-ayorinde-3b1b9a151"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://twitter.com/i_SamAyorinde"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://github.com/Sam-Devs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/sm-github.svg" alt="" width="30" />
+                    </a>
+                  </div>
+                </div>
+                <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
+                  Chief Communication Officer
+                </div>
+                <div>
+                  Eliezer is a business solutions provider with experience in
+                  data analysis. He is the Chief Communications Officer of Lead
+                  Wallet. He has about three years of experience helping to plan
+                  and execute business ideas for start-ups as well as
+                  established organizations. He is a Cofounder of ICE and Lead
+                  Cyber Services Limited (LEAD Wallet). Eliezer has been
+                  actively involved with projects in the blockchain industry for
+                  more than 3 years, filling various roles. Through his position
+                  as the CCO, he is committed to making Lead wallet a household
+                  name within and beyond the blockchain space.
+                </div>
               </div>
             </div>
           </section>
