@@ -371,6 +371,115 @@ const Teampage = () => {
                 </div>
               </div>
             </div>
+
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+              <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
+                <img
+                  src="/images/"
+                  alt=""
+                  className="w-full mx-auto"
+                  style={{ maxWidth: "200px" }}
+                />
+              </div>
+              <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
+                  Kingsley Victor
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+
+                    <a
+                      href="https://github.com/kingsley-einstein"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/sm-github.svg" alt="" width="30" />
+                    </a>
+                  </div>
+                </div>
+                <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
+                  Lead Developer
+                </div>
+                <div>
+                  Kingsley is a full-stack software engineer based in Nigeria.
+                  He has over 3 years of experience and a passion for building
+                  stuff particularly with Java, JavaScript or Typescript and is
+                  a great fan of frameworks/libraries such as Spring Boot,
+                  Express, Angular and React. Kingsley is also a budding DevOps
+                  engineer who's familiar with Docker, Travis and Jenkins and is
+                  open to learning new technologies. He's strongly passionate
+                  about RESTful APIs, GraphQL, Microservices, Blockchain, Cloud
+                  Computing, Serverless technology, and Big Data. Kingsley is
+                  also in love with philosophy and is a fan of Plato, Anselm of
+                  Canterbury, Thomas Aquinas, Socrates and Rene Descartes. He
+                  has joined the LEAD Wallet to help deliver the core product of
+                  Lead wallet.
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+              <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
+                <img
+                  src="/images/"
+                  alt=""
+                  className="w-full mx-auto"
+                  style={{ maxWidth: "200px" }}
+                />
+              </div>
+              <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
+                <div className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
+                  Sam Ayorinde
+                  <div className="flex flex-row justify-center">
+                    <a
+                      href="https://www.linkedin.com/in/sam-ayorinde-3b1b9a151"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/linkedin.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://twitter.com/i_SamAyorinde"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/twitter.svg" alt="" width="30" />
+                    </a>
+                    <a
+                      href="https://github.com/Sam-Devs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/sm-github.svg" alt="" width="30" />
+                    </a>
+                  </div>
+                </div>
+                <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
+                  Blockchain/Software Developer
+                </div>
+                <div>
+                Sam is a Blockchain/Software Developer with experience developing web apps with high standards and interacting with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. I have worked with technologies such as React, Sass, Bootstrap, CSS, Node, MongoDB, Javascript and currently building full-stack DApps on the Ethereum blockchain with Solidity and Web3. He is a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications. 
+                </div>
+              </div>
+            </div>
           </section>
         </div>
 
