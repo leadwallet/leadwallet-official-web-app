@@ -93,7 +93,7 @@ export default () => {
             href="https://stake.leadwallet.io/"
             target="_blank"
           >
-            Lead Wallet Stake
+            Lead Stake
           </a>
           <a
             className={cx(
