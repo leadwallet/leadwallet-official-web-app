@@ -369,13 +369,13 @@ const Teampage = () => {
                   emerging technologies that have been helping user experience
                   in a few business houses.
                 </div>
-              </div> 
+              </div>
             </div>
-            
-            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
-                  src="/images/eliezer.png"
+                  src="/images/"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
@@ -386,7 +386,7 @@ const Teampage = () => {
                   Kingsley Victor
                   <div className="flex flex-row justify-center">
                     <a
-                      href="https://www.linkedin.com/in/eliezer-chianakwalam-a5a9b011b/"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
@@ -394,38 +394,49 @@ const Teampage = () => {
                       <img src="/images/linkedin.svg" alt="" width="30" />
                     </a>
                     <a
-                      href="https://twitter.com/Anc_Eliezer"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
                     >
                       <img src="/images/twitter.svg" alt="" width="30" />
                     </a>
+
+                    <a
+                      href="https://github.com/kingsley-einstein"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2"
+                    >
+                      <img src="/images/sm-github.svg" alt="" width="30" />
+                    </a>
                   </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
-                  Chief Communication Officer
+                  Lead Developer
                 </div>
                 <div>
-                  Eliezer is a business solutions provider with experience in
-                  data analysis. He is the Chief Communications Officer of Lead
-                  Wallet. He has about three years of experience helping to plan
-                  and execute business ideas for start-ups as well as
-                  established organizations. He is a Cofounder of ICE and Lead
-                  Cyber Services Limited (LEAD Wallet). Eliezer has been
-                  actively involved with projects in the blockchain industry for
-                  more than 3 years, filling various roles. Through his position
-                  as the CCO, he is committed to making Lead wallet a household
-                  name within and beyond the blockchain space.
+                  Kingsley is a full-stack software engineer based in Nigeria.
+                  He has over 3 years of experience and a passion for building
+                  stuff particularly with Java, JavaScript or Typescript and is
+                  a great fan of frameworks/libraries such as Spring Boot,
+                  Express, Angular and React. Kingsley is also a budding DevOps
+                  engineer who's familiar with Docker, Travis and Jenkins and is
+                  open to learning new technologies. He's strongly passionate
+                  about RESTful APIs, GraphQL, Microservices, Blockchain, Cloud
+                  Computing, Serverless technology, and Big Data. Kingsley is
+                  also in love with philosophy and is a fan of Plato, Anselm of
+                  Canterbury, Thomas Aquinas, Socrates and Rene Descartes. He
+                  has joined the LEAD Wallet to help deliver the core product of
+                  Lead wallet.
                 </div>
               </div>
-            </div> */}
+            </div>
 
-
-            {/* <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
+            <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
                 <img
-                  src="/images/eliezer.png"
+                  src="/images/"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
@@ -462,22 +473,13 @@ const Teampage = () => {
                   </div>
                 </div>
                 <div className="font-Montserrat-ExtraBold uppercase text-xs mb-4">
-                  Chief Communication Officer
+                  Blockchain/Software Developer
                 </div>
                 <div>
-                  Eliezer is a business solutions provider with experience in
-                  data analysis. He is the Chief Communications Officer of Lead
-                  Wallet. He has about three years of experience helping to plan
-                  and execute business ideas for start-ups as well as
-                  established organizations. He is a Cofounder of ICE and Lead
-                  Cyber Services Limited (LEAD Wallet). Eliezer has been
-                  actively involved with projects in the blockchain industry for
-                  more than 3 years, filling various roles. Through his position
-                  as the CCO, he is committed to making Lead wallet a household
-                  name within and beyond the blockchain space.
+                Sam is a Blockchain/Software Developer with experience developing web apps with high standards and interacting with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. I have worked with technologies such as React, Sass, Bootstrap, CSS, Node, MongoDB, Javascript and currently building full-stack DApps on the Ethereum blockchain with Solidity and Web3. He is a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications. 
                 </div>
               </div>
-            </div> */}
+            </div>
           </section>
         </div>
 

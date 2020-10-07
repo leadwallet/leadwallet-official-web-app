@@ -90,19 +90,19 @@ export default () => {
               "transition duration-500 ease-in-out delay-500 py-4",
               clicked ? "opacity-100" : "opacity-0"
             )}
-            href="/contactus"
+            href="https://stake.leadwallet.io/"
+            target="_blank"
           >
-            Contact Us
+            Lead Wallet Stake
           </a>
           <a
             className={cx(
               "transition duration-500 ease-in-out delay-500 py-4",
               clicked ? "opacity-100" : "opacity-0"
             )}
-            href="https://stake.leadwallet.io/"
-            target="_blank"
+            href="/contactus"
           >
-            Stake
+            Contact Us
           </a>
         </div>
       </div>

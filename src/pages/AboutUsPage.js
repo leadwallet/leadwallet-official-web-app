@@ -45,25 +45,59 @@ const AboutUsPage = () => {
             </div>
           </section>
 
-          <section className="text-center mt-16">
+          <section className="mt-16 flex flex-col-reverse md:flex-row w-5/6 mx-auto">
             <div className="w-full md:w-1/3">
-              <img src="/images/app-product.png" alt="" />
+              <img
+                src="/images/app-product.png"
+                alt=""
+                className="mx-auto w-80 md:w-full lg:w-full xl:w-2/3"
+              />
+            </div>
+            <div className="w-full md:w-2/3 text-center md:text-left">
+              <div className="text-white leading-7 mb-4">
+                Lead Wallet is the world's simplest, most secured and
+                decentralized multi-crypto wallet application perfectly designed
+                for Defi access and other crypto-related use cases. Lead allows
+                users to securely store their crypto assets and can be used for
+                transactions on a P2P level without any third-party
+                intermediaries. Lead Wallet supports multiple cryptocurrencies
+                such as BTC, ETH, DOT, the majority of ERC-20 tokens (including
+                LINK, YFI, and major stablecoins), NEO, TRON and over 100 more
+                cryptocurrencies. To make our platform even more convenient for
+                users, Lead Wallet uses the best User Interface and security
+                practices to simplify the use of our platform’s capabilities
+                across all networks.
+              </div>
             </div>
           </section>
 
-          <section className="text-center mt-16">
-            <div className="text-white w-full md:w-5/6 mx-auto leading-7 mt-16">
-              Lead Wallet is a decentralized multi-cryptocurrency application
-              based on the Android and iOS platforms. As a decentralized
-              cryptocurrency wallet, its users will be able to control how they
-              spend, store, and organize their funds. In addition, the wallet
-              allows users to spend, swap, exchange and stake their
-              cryptocurrency directly from the Lead Wallet interface via a very
-              short execution process.
+          <section className="mt-8 text-left">
+            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
+              The application will have the best security features in the
+              industry and will be implemented throughout the entire wallet
+              ecosystem, hence, providing the safest storage system available in
+              the industry. The Lead Wallet team hopes to partner with several
+              companies and platforms offering the best wallet services and
+              security measures such as auditing and security penetration
+              testing, and community bug bounty so as to ensure a safe wallet
+              usage environment.
+            </div>
+          </section>
+
+          <section className="mt-8 text-left">
+            <div className="text-white w-full md:w-5/6 mx-auto leading-7 font-extrabold">
+              The Lead Wallet Ecosystem is Divided into the Following Service
+              and Product Areas:
+            </div>
+
+            <div className="text-left">
+            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
+              LeadWallet | DeFi | Access | LeadSender | LeadStake | LeadSig | LeadPay | LeadEx |
+              LeadSwap
+            </div>
             </div>
           </section>
         </div>
-
         <Footer />
       </div>
     </div>
