@@ -27,7 +27,7 @@ const TokenPage = () => {
         <Header />
 
         <div className="container mx-auto pb-12 px-4 force-height">
-          <section className="mt-8 text-center">
+          {/* <section className="mt-8 text-center">
             <div className="Montserrat-Black uppercase text-white text-4xl mb-2">
               LEAD TOKEN
             </div>
@@ -40,7 +40,7 @@ const TokenPage = () => {
               know that LEAD token will be a cross-chain token in the future and
               won’t be just part of the Ethereum ecosystem.
             </div>
-          </section>
+          </section> */}
 
           <section className="mt-20">
             <Card className="px-4 md:px-12">
