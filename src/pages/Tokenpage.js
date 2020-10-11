@@ -42,7 +42,12 @@ const TokenPage = () => {
             </div>
           </section> */}
 
-          <section className="mt-20">
+          
+
+          <section className="mt-20 text-center">
+            <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
+              WHY LEAD TOKEN?
+            </div><section className="mt-20">
             <Card className="px-4 md:px-12">
               3
               <div className="grid grid-cols-1 sm:grid-cols-3">
@@ -82,11 +87,6 @@ const TokenPage = () => {
               </div>
             </Card>
           </section>
-
-          <section className="mt-20 text-center">
-            <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
-              WHY LEAD TOKEN?
-            </div>
             <div className="text-white w-5/6 mx-auto leading-7">
               <p className="text-white text-left">
                 Lead Token is the native currency that fuels the products and
