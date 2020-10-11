@@ -42,51 +42,10 @@ const TokenPage = () => {
             </div>
           </section> */}
 
-          
-
           <section className="mt-20 text-center">
             <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
               WHY LEAD TOKEN?
-            </div><section className="mt-20">
-            <Card className="px-4 md:px-12">
-              3
-              <div className="grid grid-cols-1 sm:grid-cols-3">
-                <div className="mx-auto w-40 py-8">
-                  <img
-                    src="/images/payment.svg"
-                    width="50"
-                    alt=""
-                    className="mx-auto mb-6"
-                  />
-                  <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
-                    30% PROFIT SHARE
-                  </div>
-                </div>
-                <div className="mx-auto w-40 py-8">
-                  <img
-                    src="/images/reward.svg"
-                    width="50"
-                    alt=""
-                    className="mx-auto mb-6"
-                  />
-                  <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
-                    40% STAKE REWARD
-                  </div>
-                </div>
-                <div className="mx-auto w-40 py-8">
-                  <img
-                    src="/images/water.svg"
-                    width="50"
-                    alt=""
-                    className="mx-auto mb-6"
-                  />
-                  <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
-                    100% LIQUIDITY
-                  </div>
-                </div>
-              </div>
-            </Card>
-          </section>
+            </div>
             <div className="text-white w-5/6 mx-auto leading-7">
               <p className="text-white text-left">
                 Lead Token is the native currency that fuels the products and
@@ -131,7 +90,7 @@ const TokenPage = () => {
                   Up to 20% discount on purchases when you make payment with
                   LEAD.
                 </li>
-                <li  className="list-disc">
+                <li className="list-disc">
                   Up to 180% early access APY stake rewards when you stake LEAD
                   on Lead Wallet.
                 </li>
@@ -148,11 +107,49 @@ const TokenPage = () => {
                   several Lead Wallet services at a discounted rate.
                 </li>
               </ul>
-              
             </div>
+
+            <section className="mt-20">
+              <Card className="px-4 md:px-12">
+                3
+                <div className="grid grid-cols-1 sm:grid-cols-3">
+                  <div className="mx-auto w-40 py-8">
+                    <img
+                      src="/images/payment.svg"
+                      width="50"
+                      alt=""
+                      className="mx-auto mb-6"
+                    />
+                    <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
+                      30% PROFIT SHARE
+                    </div>
+                  </div>
+                  <div className="mx-auto w-40 py-8">
+                    <img
+                      src="/images/reward.svg"
+                      width="50"
+                      alt=""
+                      className="mx-auto mb-6"
+                    />
+                    <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
+                      40% STAKE REWARD
+                    </div>
+                  </div>
+                  <div className="mx-auto w-40 py-8">
+                    <img
+                      src="/images/water.svg"
+                      width="50"
+                      alt=""
+                      className="mx-auto mb-6"
+                    />
+                    <div className="text-white text-center text-2xl font-Montserrat-ExtraBold uppercase">
+                      100% LIQUIDITY
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </section>
           </section>
-
-
 
           <section className="mt-20 text-center">
             <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
