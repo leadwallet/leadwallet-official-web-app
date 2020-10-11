@@ -5,6 +5,7 @@ module.exports = {
     fontSize: {
       ...fontSize,
       xxs: "7px",
+      roman: 'upper-roman',
     },
     extend: {
       colors: {
