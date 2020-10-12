@@ -27,22 +27,7 @@ const TokenPage = () => {
         <Header />
 
         <div className="container mx-auto pb-12 px-4 force-height">
-          {/* <section className="mt-8 text-center">
-            <div className="Montserrat-Black uppercase text-white text-4xl mb-2">
-              LEAD TOKEN
-            </div>
-            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
-              The LEAD Token is an ERC-20 token that fuels the products and
-              services that are delivered on Lead Wallet. With this, LEAD token
-              is basically the heart of the Lead Wallet app. LEAD token is
-              designed from the ground up to have natural demand as the services
-              of Lead Wallet themselves get more popular. It’s also important to
-              know that LEAD token will be a cross-chain token in the future and
-              won’t be just part of the Ethereum ecosystem.
-            </div>
-          </section> */}
-
-          <section className="mt-20 text-center">
+          <section className="mt-2 text-center">
             <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
               WHY LEAD TOKEN?
             </div>
@@ -51,29 +36,28 @@ const TokenPage = () => {
                 Lead Token is the native currency that fuels the products and
                 services that are delivered on Lead Wallet ecosystem. Thereby
                 making Lead token a utility token as it will be needed to access
-                some major service areas of Lead Wallet application.
+                some major service areas of the wallet platform.
               </p>
             </div>
             <div className="text-white w-5/6 mx-auto leading-7">
               <p className="text-white text-left">
                 The Lead Token is minted on the Ethereum VM as an ERC20 standard
                 token. There will only be a total of one billion Lead Token
-                supply.
+                supply to ever exist.
               </p>
             </div>
             <div className="text-white w-5/6 mx-auto leading-7">
               <p className="text-white text-left">
-                LEAD's total supply is fixed. It is designed with a deflationary
+                The Lead Wallet revenue is generated from nearly all products and services offered via the Lead Wallet application. It is designed with a deflationary
                 monetary system whereby 30% of Lead Wallet quarterly profits are
                 used to purchase LEAD from the exchanges and are permanently
-                burnt.
+                burnt out of circulation.
               </p>
             </div>
             <div className="text-white w-5/6 mx-auto leading-7">
               <p className="text-white text-left">
-                Lead Wallet revenue will be generated from all the services
-                offered via the lead wallet with a quarterly audit report. Every
-                Quarter, Lead team will conduct an audit of all the earnings
+                Lead Wallet revenue will be generated from all the products and services
+                offered via the Lead Wallet application, and we provide a quarterly audit to ensure transparency. Every Quarter, Lead team will conduct an audit of all the earnings
                 from Lead Wallet, after which 30% of the total net profit will
                 be used to buy back a portion of the Lead token, which will be
                 permanently burnt. This process will continue until only 30% of
@@ -81,10 +65,10 @@ const TokenPage = () => {
               </p>
             </div>
 
-            <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
+            <div className="Montserrat-Black uppercase text-white text-3xl mb-0 mt-8">
               LEAD TOKEN FEATURES AND USE CASES:
             </div>
-            <div className="text-white w-5/6 mx-auto leading-7">
+            <div className="text-white w-5/6 mx-auto leading-7 mr-2">
               <ul className="text-left">
                 <li className="list-disc">
                   Up to 20% discount on purchases when you make payment with
