@@ -92,7 +92,7 @@ const AboutUsPage = () => {
 
             <div className="text-left">
             <div className="text-white w-full md:w-5/6 mx-auto leading-7">
-              LeadWallet | DeFi | Access | LeadSender | LeadStake | LeadSig | LeadPay | LeadEx |
+              LeadWallet | DeFi Access | LeadSender | LeadStake | LeadSig | LeadPay | LeadEx |
               LeadSwap
             </div>
             </div>
