@@ -113,7 +113,7 @@ export default () => {
               Documentation
             </div>
             <a
-              href="/en/docs/White Paper v1_0_2.pdf"
+              href="/en/docs/Lead Wallet Whitepaper 1_0_2.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

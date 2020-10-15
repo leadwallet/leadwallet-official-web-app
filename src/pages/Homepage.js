@@ -77,7 +77,10 @@ const HomePage = () => {
               showBorder={true}
               className="flex flex-row items-center text-xl w-full md:w-64 justify-center"
               onClick={() =>
-                window.open("https://youtu.be/kNq-vsWZMBE", "_blank")
+                window.open(
+                  "https://www.youtube.com/watch?v=ML7uOJAETpc&feature=youtu.be&ab_channel=LeadWallet",
+                  "_blank"
+                )
               }
             >
               <img src="/images/play.svg" width="36" alt="" className="mr-2" />
