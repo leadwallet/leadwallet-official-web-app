@@ -8,7 +8,8 @@ const AboutUsPage = () => {
       <div className="relative z-20 w-full top-0">
         <img
           src="/images/nosiy.png"
-          alt=""
+          alt="background image"
+          role="presentation"
           className="absolute z-10 top-noisy"
         />
         {/* <img
@@ -23,14 +24,16 @@ const AboutUsPage = () => {
       </div>
 
       <div className="relative w-full z-30">
-        <Header />
+        <Header>
+          <h1 className="t-hidden">Lead Wallet - About Us</h1>
+        </Header>
 
-        <div className="container mx-auto pb-24 px-4 force-height">
+        <main className="container mx-auto pb-24 px-4 force-height">
           <section className="mt-8 text-center">
-            <div className="font-Montserrat-ExtraBold uppercase text-white text-4xl mb-2">
+            <h2 className="font-Montserrat-ExtraBold uppercase text-white text-4xl mb-2">
               ABOUT US
-            </div>
-            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
+            </h2>
+            <p className="text-white w-full md:w-5/6 mx-auto leading-7">
               The Lead Wallet team is committed to providing a sophisticated yet
               simple crypto wallet application that will enable anyone (either
               newbie or expert) to store, send, receive, spend, exchange/swap
@@ -42,19 +45,19 @@ const AboutUsPage = () => {
               excellent blockchain technology and cryptocurrency application
               scenarios that will further the adoption and use cases of
               cryptocurrencies.
-            </div>
+            </p>
           </section>
 
           <section className="mt-16 flex flex-col-reverse md:flex-row w-5/6 mx-auto">
             <div className="w-full md:w-1/3">
               <img
                 src="/images/app-product.png"
-                alt=""
+                alt="Lead wallet product"
                 className="mx-auto w-80 md:w-full lg:w-full xl:w-2/3"
               />
             </div>
             <div className="w-full md:w-2/3 text-center md:text-left">
-              <div className="text-white leading-7 mb-4">
+              <p className="text-white leading-7 mb-4">
                 Lead Wallet is the world's simplest, most secured and
                 decentralized multi-crypto wallet application perfectly designed
                 for Defi access and other crypto-related use cases. Lead allows
@@ -67,12 +70,12 @@ const AboutUsPage = () => {
                 users, Lead Wallet uses the best User Interface and security
                 practices to simplify the use of our platform’s capabilities
                 across all networks.
-              </div>
+              </p>
             </div>
           </section>
 
           <section className="mt-8 text-left">
-            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
+            <p className="text-white w-full md:w-5/6 mx-auto leading-7">
               The application will have the best security features in the
               industry and will be implemented throughout the entire wallet
               ecosystem, hence, providing the safest storage system available in
@@ -81,23 +84,23 @@ const AboutUsPage = () => {
               security measures such as auditing and security penetration
               testing, and community bug bounty so as to ensure a safe wallet
               usage environment.
-            </div>
+            </p>
           </section>
 
           <section className="mt-8 text-left">
-            <div className="text-white w-full md:w-5/6 mx-auto leading-7 font-extrabold">
+            <p className="text-white w-full md:w-5/6 mx-auto leading-7 font-extrabold">
               The Lead Wallet Ecosystem is Divided into the Following Service
               and Product Areas:
-            </div>
+            </p>
 
             <div className="text-left">
-            <div className="text-white w-full md:w-5/6 mx-auto leading-7">
+            <p className="text-white w-full md:w-5/6 mx-auto leading-7">
               LeadWallet | DeFi Access | LeadSender | LeadStake | LeadSig | LeadPay | LeadEx |
               LeadSwap
-            </div>
+            </p>
             </div>
           </section>
-        </div>
+        </main>
         <Footer />
       </div>
     </div>

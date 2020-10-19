@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import cx from "classnames";
 
-export default () => {
+export default ({children}) => {
   const [clicked, setClicked] = useState(false);
 
   const renderButton = () => {
@@ -23,6 +23,7 @@ export default () => {
         aria-label="Main Menu"
         aria-expanded={clicked}
       >
+        <span className="t-hidden">{clicked ? "close" : "open"} main menu</span>
         <svg width="60" height="60" viewBox="0 0 100 100">
           <path
             className="line line1"
@@ -40,6 +41,7 @@ export default () => {
 
   return (
     <header className="container px-4 mx-auto py-4">
+      {children}
       <div className="flex flex-row justify-between items-center relative">
         <a href="/" className="logo flex flex-row items-center">
           <img
@@ -48,6 +50,7 @@ export default () => {
             className="cursor-pointer"
             alt="LEAD"
           />
+          <span className="t-hiddn">lead wallet logo</span>
         </a>
         <div className="cursor-pointer">{renderButton()}</div>
       </div>
@@ -57,7 +60,7 @@ export default () => {
           clicked ? "flex bg-black" : "hidden bg-transparent"
         )}
       >
-        <div className="flex flex-col mx-auto justify-center text-center">
+        <nav className="flex flex-col mx-auto justify-center text-center">
           <a
             className={cx(
               "transition duration-500 ease-in-out delay-500 py-4",
@@ -92,6 +95,7 @@ export default () => {
             )}
             href="https://stake.leadwallet.io/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Lead Stake
           </a>
@@ -104,7 +108,7 @@ export default () => {
           >
             Contact Us
           </a>
-        </div>
+        </nav>
       </div>
     </header>
   );
