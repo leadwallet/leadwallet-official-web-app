@@ -11,12 +11,13 @@ export default () => {
                 src="/images/full-logo-footer.png"
                 width="220"
                 className="cursor-pointer"
-                alt="LEAD"
+                alt="LEAD wallet logo"
               />
+              <span className="t-hidden">home page</span>
             </a>
-            <div className="uppercase text-white text-md mb-3 mt-4 text-left">
+            <h2 className="uppercase text-white text-md mb-3 mt-4 text-left">
               Follow Us
-            </div>
+            </h2>
             <div className="flex flex-row items-center ">
               <a
                 href="https://instagram.com/lead_wallet"
@@ -24,7 +25,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-instagram.svg" alt="" width="20" />
+                <img src="/images/sm-instagram.svg" alt="instagram" width="20" />
+                <span className="t-hidden">instagram</span>
               </a>
               <a
                 href="https://www.linkedin.com/company/leadwallet"
@@ -32,7 +34,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-linkedin.svg" alt="" width="20" />
+                <img src="/images/sm-linkedin.svg" alt="linkedin" width="20" />
+                <span className="t-hidden">linkedin</span>
               </a>
               <a
                 href="https://twitter.com/leadwallet"
@@ -40,7 +43,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-twitter.svg" alt="" width="20" />
+                <img src="/images/sm-twitter.svg" alt="twitter" width="20" />
+                <span className="t-hidden">twitter</span>
               </a>
               <a
                 href="https://www.reddit.com/r/LeadWallet"
@@ -48,7 +52,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-reddit.svg" alt="" width="20" />
+                <img src="/images/sm-reddit.svg" alt="reddit" width="20" />
+                <span className="t-hidden">reddit</span>
               </a>
               <a
                 href="https://github.com/leadwallet"
@@ -56,7 +61,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-github.svg" alt="" width="20" />
+                <img src="/images/sm-github.svg" alt="github" width="20" />
+                <span className="t-hidden">github</span>
               </a>
               <a
                 href="https://medium.com/@LeadWallet"
@@ -64,7 +70,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-medium.svg" alt="" width="20" />
+                <img src="/images/sm-medium.svg" alt="medium" width="20" />
+                <span className="t-hidden">medium</span>
               </a>
               <a
                 href="https://t.me/Leadwallet"
@@ -72,7 +79,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-telegram.svg" alt="" width="20" />
+                <img src="/images/sm-telegram.svg" alt="telegram" width="20" />
+                <span className="t-hidden">telegram</span>
               </a>
               <a
                 href="https://discord.gg/62Zh9Ch"
@@ -80,7 +88,8 @@ export default () => {
                 rel="noopener noreferrer"
                 className="mr-4"
               >
-                <img src="/images/sm-discord.svg" alt="" width="20" />
+                <img src="/images/sm-discord.svg" alt="discord" width="20" />
+                <span className="t-hidden">discord</span>
               </a>
             </div>
           </div>
@@ -91,7 +100,7 @@ export default () => {
             <div>Crypto Wallets</div>
             <div>LEAD Pride</div>
           </div> */}
-          <div className="text-white leading-7 text-xs cursor-pointer flex flex-col">
+          <div className="text-white leading-7 text-xs flex flex-col">
             <a href="/aboutus" className="font-Montserrat-ExtraBold uppercase">
               About Us
             </a>
@@ -108,10 +117,10 @@ export default () => {
             <div>The PSP Solution</div>
             <div>Use Your Cryptocurrency</div>
           </div> */}
-          <div className="text-white leading-7 text-xs cursor-pointer flex flex-col">
-            <div className="font-Montserrat-ExtraBold uppercase">
+          <div className="text-white leading-7 text-xs flex flex-col">
+            <h3 className="font-Montserrat-ExtraBold uppercase">
               Documentation
-            </div>
+            </h3>
             <a
               href="/en/docs/Lead Wallet Whitepaper 1_0_2.pdf"
               target="_blank"
@@ -137,9 +146,9 @@ export default () => {
         </div>
       </footer>
       <div className="footer-copyright text-center py-3 text-white">
-        <div fluid>
+        <p fluid>
           &copy; {new Date().getFullYear()} Copyright: <a href="#"> Lead Cyber Service Limited </a>
-        </div>
+        </p>
       </div>
     </div>
   );
