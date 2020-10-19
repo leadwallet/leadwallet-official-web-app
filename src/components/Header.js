@@ -50,7 +50,7 @@ export default ({children}) => {
             className="cursor-pointer"
             alt="LEAD"
           />
-          <span className="t-hiddn">lead wallet logo</span>
+          <span className="t-hidden">lead wallet logo</span>
         </a>
         <div className="cursor-pointer">{renderButton()}</div>
       </div>
