@@ -33,7 +33,8 @@
     "react:build": "react-scripts build",
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "build:clean": "rimraf ./build",
-    "build": "npm-run-all \"build:clean build:style react:build\""
+    "build": "npm-run-all \"build:clean build:style react:build\"",
+    "start:server": "node server.js"
   },
   "browserslist": {
     "production": [
