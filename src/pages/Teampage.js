@@ -391,7 +391,7 @@ const Teampage = () => {
                   Kingsley Victor
                   <div className="flex flex-row justify-center">
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/kingsley-victor-952550169"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
@@ -399,7 +399,7 @@ const Teampage = () => {
                       <img src="/images/linkedin.svg" alt="linkedin" width="30" />
                     </a>
                     <a
-                      href="#"
+                      href="https://twitter.com/java_warrior"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
