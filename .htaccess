@@ -1,2 +1,0 @@
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^ https://www.leadwallet.io [L,R=301]
