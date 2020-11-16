@@ -8,12 +8,16 @@ export default ({
   onChange,
   className,
   placeholder,
+  relation,
 }) => {
   return type === "textarea" ? (
+    <>
+    <label className="t-hidden" for={relation}>{relation}</label>
     <textarea
       onChange={onChange}
       value={value}
       type={type}
+      id={relation}
       placeholder={placeholder}
       rows={7}
       className={cx(
@@ -22,11 +26,15 @@ export default ({
         "text-" + color
       )}
     />
+    </>
   ) : (
+    <>
+    <label className="t-hidden" for={relation}>{relation}</label>
     <input
       onChange={onChange}
       value={value}
       type={type}
+      id={relation}
       placeholder={placeholder}
       className={cx(
         className,
@@ -34,5 +42,6 @@ export default ({
         "text-" + color
       )}
     />
+    </>
   );
 };
