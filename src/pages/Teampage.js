@@ -379,12 +379,12 @@ const Teampage = () => {
 
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
-                {/* <img
-                  src="/images/"
+                <img
+                  src="/images/kingsley.png"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
-                /> */}
+                />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
                 <h3 className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
