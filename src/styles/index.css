@@ -23,6 +23,7 @@
 body {
   font-family: "Montserrat";
   font-style: normal;
+  font-display: swap;
 }
 
 .font-Montserrat {
@@ -179,6 +180,16 @@ body {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
   stroke-width: 6;
+}
+
+.t-hidden {
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
 }
 
 @tailwind utilities;

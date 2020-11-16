@@ -10,10 +10,10 @@ export default ({ phase, description, hideBar = false }) => {
         )}
       </div>
       <div className="text-white text-left ml-4">
-        <div className="font-Montserrat-ExtraBold uppercase mb-1">
+        <h4 className="font-Montserrat-ExtraBold uppercase mb-1">
           Phase {phase}
-        </div>
-        <div>{description}</div>
+        </h4>
+        <p>{description}</p>
       </div>
     </div>
   );

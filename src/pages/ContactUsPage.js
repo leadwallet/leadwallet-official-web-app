@@ -15,12 +15,14 @@ const ContactUsPage = () => {
       <div className="relative z-20 w-full top-0">
         <img
           src="/images/nosiy.png"
-          alt=""
+          alt="background image"
+          role="presentation"
           className="absolute z-10 top-noisy"
         />
         <img
           src="/images/nosiy.png"
-          alt=""
+          alt="background image"
+          role="presentation"
           className="absolute z-10 second-noisy"
         />
       </div>
@@ -30,21 +32,24 @@ const ContactUsPage = () => {
       </div>
 
       <div className="relative w-full z-30">
-        <Header />
+        <Header>
+          <h1 className="t-hidden">Lead Wallet - Contact Us</h1>
+        </Header>
 
         {showThanks ? (
-          <div className="container mx-auto pb-48 px-4 force-height">
+          <main className="container mx-auto pb-48 px-4 force-height">
             <section className="w-full mt-48 text-center">
               <img
                 src="/images/check-circle.svg"
                 width="100"
                 className="mx-auto"
-                alt=""
+                alt="Submition sent"
+                role="presentation"
               />
-              <div className="font-Montserrat-ExtraBold text-white text-3xl mb-2">
+              <h2 className="font-Montserrat-ExtraBold text-white text-3xl mb-2">
                 Thank you for contacting us
-              </div>
-              <div className="text-white w-full md:w-5/6 mx-auto leading-7">
+              </h2>
+              <p className="text-white w-full md:w-5/6 mx-auto leading-7">
                 For more information please reach out to:{" "}
                 <a
                   className="text-blue-300"
@@ -52,16 +57,16 @@ const ContactUsPage = () => {
                 >
                   contact@leadwallet.io
                 </a>
-              </div>
+              </p>
             </section>
-          </div>
+          </main>
         ) : (
-          <div className="container mx-auto pb-48 px-4 force-height">
+          <main className="container mx-auto pb-48 px-4 force-height">
             <section className="mt-8 text-center">
-              <div className="Montserrat-Black uppercase text-white text-3xl mb-2">
+              <h2 className="Montserrat-Black uppercase text-white text-3xl mb-2">
                 CONTACT US
-              </div>
-              <div className="text-white w-5/6 mx-auto leading-7">
+              </h2>
+              <p className="text-white w-5/6 mx-auto leading-7">
                 We are not trying to reinvent the wheel. We are not trying to
                 create a new blockchain ecosystem that nobody would use. We
                 understand the biggest problem with cryptocurrency adoption is
@@ -70,20 +75,23 @@ const ContactUsPage = () => {
                 the first application that newcomers often interact with before
                 they start interacting with other kinds of apps. We are trying
                 to be the leader of that adoption.
-              </div>
+              </p>
             </section>
 
             <section className="mt-12">
               <Card className="px-4 md:px-12">
+                <form>
                 <div className="grid gird-cols-1 md:grid-cols-2 gap-8 md:gap-12 pt-8">
                   <InputField
                     value={email}
                     placeholder="EMAIL"
+                    relation="userEmail"
                     onChange={(e) => setEmail(e.target.value)}
                   />
                   <InputField
                     value={name}
                     placeholder="NAME"
+                    relation="userName"
                     onChange={(e) => setName(e.target.value)}
                   />
                 </div>
@@ -91,6 +99,7 @@ const ContactUsPage = () => {
                   <InputField
                     type="textarea"
                     value={messsage}
+                    relation="textarea"
                     placeholder="SEND MESSAGE"
                     onChange={(e) => setMessage(e.target.value)}
                   />
@@ -103,9 +112,10 @@ const ContactUsPage = () => {
                     SUBMIT
                   </Button>
                 </div>
+                </form>
               </Card>
             </section>
-          </div>
+          </main>
         )}
 
         <Footer />

@@ -8,9 +8,9 @@ export default ({ title, className, children }) => {
       }
     >
       {title && (
-        <div className="text-center font-Montserrat-ExtraBold text-white text-2xl uppercase pt-3 pb-2 border-b border-dashed border-white">
+        <h3 className="text-center font-Montserrat-ExtraBold text-white text-2xl uppercase pt-3 pb-2 border-b border-dashed border-white">
           {title}
-        </div>
+        </h3>
       )}
       {children}
     </div>
