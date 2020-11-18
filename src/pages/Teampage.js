@@ -481,7 +481,7 @@ const Teampage = () => {
                   Blockchain/Software Developer
                 </h4>
                 <p>
-                  Sam is a Blockchain/Software Developer with experience developing web apps with high standards and interacting with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. I have worked with technologies such as React, Sass, Bootstrap, CSS, Node, MongoDB, Javascript and currently building full-stack DApps on the Ethereum blockchain with Solidity and Web3. He is a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications. 
+                  Sam is a Blockchain/Software Developer with experience developing web apps with high standards and interacting with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. He has worked with technologies such as React, Sass, Bootstrap, CSS, Node, MongoDB, Javascript and currently building full-stack DApps on the Ethereum blockchain with Solidity and Web3. He is a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications. 
                 </p>
               </div>
             </div>
