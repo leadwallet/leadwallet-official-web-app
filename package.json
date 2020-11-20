@@ -35,7 +35,7 @@
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "build:clean": "rimraf ./build",
     "build": "npm-run-all build:clean build:style react:build",
-    "start:server": "node server.js"
+    "start:server": "cross-env HTTPS=true node server.js"
   },
   "browserslist": {
     "production": [
