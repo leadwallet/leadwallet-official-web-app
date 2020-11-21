@@ -104,6 +104,17 @@ export default ({children}) => {
               "transition duration-500 ease-in-out delay-500 py-4",
               clicked ? "opacity-100" : "opacity-0"
             )}
+            href="http://app.leadwallet.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Lead Wallet
+          </a>
+          <a
+            className={cx(
+              "transition duration-500 ease-in-out delay-500 py-4",
+              clicked ? "opacity-100" : "opacity-0"
+            )}
             href="/contactus"
           >
             Contact Us
