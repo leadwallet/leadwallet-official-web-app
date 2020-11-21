@@ -379,19 +379,19 @@ const Teampage = () => {
 
             <div className="flex flex-col sm:flex-row w-full lg:w-5/6 mx-auto mb-12">
               <div className="w-full sm:w-1/3 px-4 md:px-6 lg:px-12">
-                {/* <img
-                  src="/images/"
+                <img
+                  src="/images/kingsley.png"
                   alt=""
                   className="w-full mx-auto"
                   style={{ maxWidth: "200px" }}
-                /> */}
+                />
               </div>
               <div className="w-full text-center mt-4 sm:mt-0 sm:w-2/3 sm:text-left text-white">
                 <h3 className="Montserrat-Black text-xl flex flex-col-reverse sm:justify-start sm:flex-row sm:items-center">
                   Kingsley Victor
                   <div className="flex flex-row justify-center">
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/kingsley-victor-952550169"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
@@ -399,7 +399,7 @@ const Teampage = () => {
                       <img src="/images/linkedin.svg" alt="linkedin" width="30" />
                     </a>
                     <a
-                      href="#"
+                      href="https://twitter.com/java_warrior"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2"
@@ -481,7 +481,7 @@ const Teampage = () => {
                   Blockchain/Software Developer
                 </h4>
                 <p>
-                  Sam is a Blockchain/Software Developer with experience developing web apps with high standards and interacting with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. I have worked with technologies such as React, Sass, Bootstrap, CSS, Node, MongoDB, Javascript and currently building full-stack DApps on the Ethereum blockchain with Solidity and Web3. He is a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications. 
+                  Sam is a Blockchain/Software Developer with experience developing web apps with high standards and interacting with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. He has worked with technologies such as React, Sass, Bootstrap, CSS, Node, MongoDB, Javascript and currently building full-stack DApps on the Ethereum blockchain with Solidity and Web3. He is a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications. 
                 </p>
               </div>
             </div>
